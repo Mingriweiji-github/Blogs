@@ -28,4 +28,9 @@
 [招聘一个靠谱的iOS参考答案（上）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（上）.md)    
 [招聘一个靠谱的iOS参考答案（下）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（下）.md)                    
 
+### 突破性思维
+[刻意练习](https://book.douban.com/subject/26895993/)       
 
+[拆掉思维里的墙](https://www.amazon.cn/拆掉思维里的墙-原来我还可以这样活-古典/dp/B009P4OW6U/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1503646401&sr=1-2&keywords=拆掉思维里的墙)    
+
+[你的生命有什么可能](https://www.amazon.cn/你的生命有什么可能-古典/dp/B00SIOKLMM/ref=pd_sim_351_3?ie=UTF8&psc=1&refRID=2X0YEEB59NM2X633X420)
