@@ -21,7 +21,10 @@
 [看完还不懂HTTPS我直播吃翔](http://www.jianshu.com/p/ca7df01a9041)    
 [SDWebImage 图片下载缓存框架 常用方法及原理](http://www.jianshu.com/p/4191017c8b39)    
 
-### 面试篇   
+第四节：Swift3.0
+[Swift3特性](http://www.jianshu.com/p/5d911fae5b2f)
+
+### 面试篇   
 [iOS中级面试题](http://mrpeak.cn/ios/2016/01/07/push)  
 [iOS面试题练习(二)](https://larrycal.coding.me/2017/02/27/iOS面试题-二/)  
 [招聘一个靠谱的iOS](http://blog.sunnyxx.com/2015/07/04/ios-interview/)     
