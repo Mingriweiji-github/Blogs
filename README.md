@@ -1,3 +1,23 @@
+    1.library not found for -lstdc++.6.0.9
+`报错原因：自iOS12.0中去掉了lstdc++.6.0.9.tbd动态库，全部采用libc++代替lstdc++的动态库.`
+
+#### 解决方法：下载[压缩包](https://github.com/Mingriweiji-github/iOS-Advance-Blog/blob/master/libstdc%2B%2B.6.0.9.tbd.zip)解压后用libstdc++.6.0.9.tbd替换以下路径中的libstdc++.6.0.9.tbd
+###### 真机路径：
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/lib
+###### 模拟器路径：
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/lib
+
+    2: no suitable image found.  Did find:
+     /usr/lib/libstdc++.6.dylib: mach-o, but not built for iOS simulator
+
+#### 解决方法： 下载[压缩包](https://github.com/Mingriweiji-github/iOS-Advance-Blog/blob/master/libstdc%2B%2B.6.0.9.tbd.zip)，使用压缩包中的libstdc++.6.dylib复制到下面路径即可
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib
+
+
+
+
+
+
 # iOS+思维 进阶篇 
 
 ### 原理篇
