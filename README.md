@@ -1,3 +1,4 @@
+#   Xcode问题集锦
 ### 问题1.library not found for -lstdc++.6.0.9
 ### 
 `报错原因：自iOS12.0中去掉了lstdc++.6.0.9.tbd动态库，全部采用libc++代替lstdc++的动态库.`
