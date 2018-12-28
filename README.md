@@ -6,9 +6,12 @@
 #### 解决方法：下载[压缩包](https://github.com/Mingriweiji-github/iOS-Advance-Blog/blob/master/libstdc%2B%2B.6.0.9.tbd.zip)解压后用libstdc++.6.0.9.tbd 分别替换以下真机和模拟器libstdc++.6.0.9.tbd文件，路径如下
 ###### 真机路径：
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/usr/lib
+
 注释：iPhoneOS12.0.sdk 也可能是iPhoneOS12.1.sdk或者更新版本
+
 ###### 模拟器路径：
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/lib
+
 注释：iPhoneSimulator12.0.sdk 也可能是iPhoneSimulator12.1.sdk或者更新版本
 
 ### 问题2: no suitable image found.  Did find:
