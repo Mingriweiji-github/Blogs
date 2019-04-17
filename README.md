@@ -21,9 +21,13 @@
 [Runloop实战](https://juejin.im/post/5cacb2baf265da03904bf93b)
 
 第三节：HTTPS原理、数据库升级、SDWebImage    
+[看完还不懂HTTPS我直播吃翔](http://www.jianshu.com/p/ca7df01a9041) 
+
+[图解HTTPS](https://mp.weixin.qq.com/s/3gI8avaaaEaBJjOKitN7Fw)
+
+[SDWebImage 图片下载缓存框架 常用方法及原理](http://www.jianshu.com/p/4191017c8b39)  
+
 [iOS数据库升级](http://www.jianshu.com/p/e1bd870b4ac2)   
-[看完还不懂HTTPS我直播吃翔](http://www.jianshu.com/p/ca7df01a9041)    
-[SDWebImage 图片下载缓存框架 常用方法及原理](http://www.jianshu.com/p/4191017c8b39)    
 
 第四节：Swift3.0
 [Swift3特性](http://www.jianshu.com/p/5d911fae5b2f)
