@@ -20,7 +20,7 @@
 [Runloop面试与总结](https://juejin.im/post/5c9e28ddf265da307261efff)
 [Runloop实战](https://juejin.im/post/5cacb2baf265da03904bf93b)
 
-第三节：HTTPS原理、数据库升级、SDWebImage    
+第三节：HTTPS原理   
 [看完还不懂HTTPS我直播吃翔](http://www.jianshu.com/p/ca7df01a9041) 
 
 [图解HTTPS](https://mp.weixin.qq.com/s/3gI8avaaaEaBJjOKitN7Fw)
