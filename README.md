@@ -15,6 +15,9 @@
 [iOS底层解析Weak实现原理](http://www.jianshu.com/p/13c4fb1cedea)        
 [weak singleton](https://zhuanlan.zhihu.com/p/27832890)   
 
+[关于iOS离屏渲染的深入研究](https://zhuanlan.zhihu.com/p/72653360)
+
+
 [RunLoop要点](http://aaaboom.com/?p=37)   
 [RunLoop系列之源码分析](http://aaaboom.com/?p=34#wow1)   
 [Runloop面试与总结](https://juejin.im/post/5c9e28ddf265da307261efff)
