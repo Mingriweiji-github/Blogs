@@ -1,3 +1,4 @@
+[toc]
 # Functional Programming in Swift
 
 函数式编程介绍。版本：Swift 4.2, iOS 12, Xcode 10
@@ -97,7 +98,7 @@ let parkRides = [
 >
 >  map函数返回一个数组，其中包含对每个元素的映射或转换函数的结果。
 
-#### Map on array:
+#### map on array:
 ```Swift
 let arrayOfInt = [1,2,3,4,5]
 ```
@@ -116,9 +117,14 @@ print(mapArr)
 ```
 > Working of map: The map function has a single argument which is a closure (a function) that it calls as it loops over the collection. This closure takes the element from the collection as an argument and returns a result. The map function returns these results in an array.
 
-
-
-#### Map on Dictionary
+#### map on nil 
+> The output of map became a collection of optional int ([Int?]) only because the array had nil — value in it. Otherwise it would have been an Int array.
+```Swift
+ let array = [1, nil, 3, 4, nil]
+ print(array.map{ $0 })
+```
+`print: [Optional(1), nil, Optional(3), Optional(4), nil]`
+#### map on Dictionary
 
 ```Swift
 let book = ["A": 100, "B": 80, "C": 90]
@@ -128,7 +134,7 @@ let mapedBook = book.map { (key, value) in
 print(mapedBook) //["C", "B", "A"]
 
 ```
-#### Map on Set
+#### map on Set
 
 ```Swift
 let lengthInmeter: Set = [1,3,5]
@@ -139,7 +145,7 @@ print(km) // [1000, 5000, 3000]
 
 
 
-#### Map同时获取array.Index??
+#### map同时获取array.Index ?
 
 ```Swift
 let nums = [1,2,3,4,5]
@@ -153,7 +159,7 @@ print("newNums:\(newNums)")
 
 Filter函数的作用是过滤集合，返回符合条件的集合。
 
-#### Filter on Array
+#### ilter on Array
 
 ```Swift
 let filterArray = [2,4,6,1,5,7]
@@ -163,7 +169,7 @@ let newFilterArray = filterArray.filter { num -> Bool in
 print(newFilterArray)
 ```
 
-#### Filter on Dictionary
+#### filter on Dictionary
 
 ```Swift
 let book = ["A": 100, "B": 80, "C": 90]
@@ -186,7 +192,7 @@ let bookFilter = book.filter {
 >
 > $1是value
 
-#### Filter on Set
+#### filter on Set
 
 ```Swift
 let setNums = [4.9,5.5,8.6]
@@ -215,7 +221,7 @@ func reduce<Result>(_ initialResult: Result, _ nextPartialResult: (Result, Eleme
 - 第一个参数 **initial value**用来存储初始值或者结果（每次迭代器的结果）
 - 第二个是带有两个参数的闭包，Result是初始值或迭代器的结果，Element是集合中的下一个元素。
 
-#### Reduce on Array
+#### educe on Array
 
 ```Swift
 let numbers = [1,2,3,4,5,6]
@@ -257,7 +263,7 @@ let newCharactor = charactors.reduce("", +)
 print(newCharactor) // abcdefhijk
 ```
 
-#### Reduce on Dictionary
+#### reduce on Dictionary
 
 ```Swift
 
@@ -287,7 +293,7 @@ let reducedNameOnDic = dict.reduce("Charater are ") { $0 + $1.key + " "}
 
 ```
 
-#### Reduce on Set
+#### feduce on Set
 
 ```Swift
 // Reduce on Set
@@ -298,7 +304,9 @@ let reducedMeters = lengthMeters.reduce(0.0) {
 print("reduced meters :\(reducedMeters)") // 5.0
 ```
 
-## FlatMap
+### FlatMap
+
+#### FlatMap作用
 
 
 
@@ -306,7 +314,9 @@ Flatmap is used to flatten a collection of collections . But before flattening t
 
 > **Apple docs says**: Returns an array containing the concatenated results of calling the given transformation with each element of this sequence.
 
-Flatmap用于展平集合的集合。 但是在展平集合之前，我们可以将map应用于每个集合元素。
+###### 1.flatmap用于展平包含集合的集合。
+
+ 但是在展平集合之前，我们可以将map应用于每个集合元素。
 
 ```Swift
 let charaters = ["abc","def","ghi"]
@@ -321,7 +331,7 @@ print(newCodes)
 
 ```
 
-#### nil 
+###### 2.flatmap可以过滤nil，Swift3后开始启用`compactMap`替代`flatMap`来过滤
 
 ```Swift
 let nilArray = [2,3,nil]
@@ -330,3 +340,139 @@ print(nilArray.flatMap { $0 }) // [2,3]
 print(nilArray.compactMap { $0 }) // [2,3]
 ```
 
+##### flatmap on array
+
+```Swift
+let numberForFlatMap = [[1,2,3], [4,5,6]]
+let flatMapOfNumbers = numberForFlatMap.flatMap { $0 }
+print("flatMapOfNumbers:\(flatMapOfNumbers)") 
+// flatMapOfNumbers:[1, 2, 3, 4, 5, 6]
+
+```
+
+#### flatmap on dictionary
+
+```Swift
+    let dictArrayForFlatMap = [["key1":"value1","key2":"value2"]]
+    let flatMapForDict = dictArrayForFlatMap.flatMap { $0 }
+    print("flatMapForDict:\(flatMapForDict)")
+
+    //flatMapForDict:[(key: "key2", value: "value2"), (key: "key1", value: "value1")]
+
+    var dict = [String: String]()
+    flatMapForDict.forEach {
+        dict[$0.0] = $0.1
+    }
+    print("dict:\(dict)")
+
+  //dict:["key1": "value1", "key2": "value2"]
+
+```
+
+#### flatMap on Set
+
+```Swift
+    let numberSet: Set = [Set([1,2,3]), Set([4,5,6])]
+    let flatMapForSet = numberSet.flatMap { $0 }
+    print("flatMapForSet:\(flatMapForSet)")
+    //flatMapForSet:[2, 3, 1, 4, 6, 5]
+
+```
+#### flatMap优势
+深入挖掘下flatMap的优势在哪里：
+##### 过滤optionals
+> Even more usefully it knows about optionals and will remove them from a collection.
+>
+多说无益，show me code:
+```Swift
+let numberOfOptionals = [1,2,nil,4,5,6]
+let valid = numberOfOptionals.flatMap { $0 }
+print("valid:\(valid)")
+//valid:[1, 2, 4, 5, 6]
+```
+
+#### 组合filter/map使用
+flatMap可以用在集合中包含集合的情况下，类似[[array1],[array2],[array3]]这种多维数组会被flatMap展开成一维数组。`flatmap闭包`中的参数$0即是一个数组集合，拿到$0后我们可以用来filter或者map。
+
+show me code:
+```Swift
+        let collectionWithCollections = [[6,5,4], [3,2] , [8,9,7]]
+        let onlyEven = collectionWithCollections.flatMap {
+            $0.filter { $0 % 2 == 0 }
+        }
+        print(onlyEven)
+        //[6, 4, 2, 8]
+
+
+```
+
+#### 函数式（map+filter+reduce）
+> The working principle behind the chaining is simple. The map and filter methods act on a collection and returns another collection . And now, we can again apply another higher order function on this collection. It’s that simple.
+
+我们来看看组合使用的效果
+
+```Swift
+let arrayOfArrays = [[1,2,3,4], [5,6,7,8]]
+let mixArrayOperation = arrayOfArrays.flatMap{$0}.filter{ $0 % 2 == 0 }.map{ $0 * $0 }
+let reducdArray = mixArrayOperation.reduce(0, +)
+print(reducdArray) // 120
+```
+
+
+
+等价于下面
+
+```Swift
+        let arrayOfArrays = [[1,2,3,4], [5,6,7,8]]
+        var sequence = arrayOfArrays.flatMap{ $0 }
+        sequence = sequence.filter{ $0 % 2 == 0}
+        sequence = sequence.map{ $0 * $0 }
+        let reducedSeq = sequence.reduce(0, +)
+
+```
+
+```Swift
+			  //sequence flatMap:[4, 16, 36, 64]
+        //sequence filter:[4, 16, 36, 64]
+        //sequence map:[4, 16, 36, 64]
+        //sequence reduce:120
+```
+
+
+
+## compactMap()
+
+#### compactMap on array 可以过滤nil
+```Swift
+  let array = [1,2, nil, nil ,5,6]
+  print(array.compactMap{ $0 }) 
+  //[1, 2, 5, 6]
+```
+#### compactMap on dictionary 不能过滤nil
+
+```Swift
+  let dict = ["1": nil, "2":"10"]
+  print(dict.compactMap{ $0 })
+```
+`print:  //[(key: "2", value: Optional("10")), (key: "1", value: nil)]`
+#### `compactMapValues()` on dictionary 可以过滤nil
+
+```Swift
+let dict = ["1": nil, "2":"10"]
+print(dict.compactMapValues{ $0 })
+//["2": "10"]
+```
+
+## 总结
+
+看到这里，你已经掌握了Swift高阶函数了
+
+尽可能使用高阶函数的目的：
+
+1. 提高Swift使用技巧
+2. 增强代码可读性
+3. 更加的函数式更加的Swift
+
+我们的目标是星辰大海（Less Code more life）
+
+希望你喜欢。done
