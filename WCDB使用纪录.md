@@ -32,3 +32,25 @@ WCDB_SYNTHESIZE(WCGasUser, user_name)
 
 唯一性原则：**任意一个表中不可能存在两行数据有相同的主键值**
 
+### 关键字keyword like搜索
+
+如果我们希望从 "Persons" 表中选取居住在包含 "B" 的城市里的人：
+
+我们可以使用下面的 SELECT 语句：
+
+```
+SELECT * FROM Persons
+WHERE City LIKE '%b%'
+```
+
+WCDB 
+
+```
+/*
+ DELETE FROM message
+ WHERE localID BETWEEN 10 AND 20 OR content LIKE 'Hello%'
+ */
+[database deleteObjectsFromtable:@"message"
+                           where:Message.local.between(10, 20) 
+ 								 || Message.content.like("Hello%")];
+```
