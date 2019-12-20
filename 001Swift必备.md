@@ -359,5 +359,149 @@ autoreleasepool {
 
 **2. 在需要处理大量数据并且频繁操作 (增减) 其中元素时，选择 NSMutableArray 和 NSMutableDictionary **
 
-## 16、String还是NSString?
+## 1、Range还是NSRange?
 
+**1、将NSRange转成Range**
+
+```Swift
+extension String {
+    func toRange(_ range: NSRange) -> Range<String.Index>? {
+        guard let from16 = utf16.index(utf16.startIndex, offsetBy: range.location, limitedBy: utf16.endIndex) else { return nil }
+        guard let to16 = utf16.index(from16, offsetBy: range.length, limitedBy: utf16.endIndex) else { return nil }
+        guard let from = String.Index(from16, within: self) else { return nil }
+        guard let to = String.Index(to16, within: self) else { return nil }
+        return from ..< to
+    }
+}
+```
+
+```Swift
+let str = "Apple"
+let nsRange = NSRange(location: 1, length: 2)
+let newStr = str.replacingCharacters(in: str.toRange(nsRange)!, with: "bb")
+print("newStr is \(newStr)") // Abble
+
+```
+
+replace字符串指定range为我们想要的字符串
+
+## 1、String还是NSString?
+
+    ```Swift
+//or use NSString
+
+let nsString = (str as NSString).replacingCharacters(in: nsRange, with: "bb")
+print("nsString is \(nsString)") // Abble
+    ```
+
+## 18.UnsafeMutablePointer
+
+**创建使用allocate+initialize**
+
+```Swift
+struct Pointer {
+    let x: Double
+    let y: Double
+}
+extension Pointer {
+func toPointer() -> Pointer {
+  return Pointer(x: self.x, y: self.y)
+}
+
+func toUnsafePointer() -> UnsafeMutablePointer<Pointer> {
+  let pointer = UnsafeMutablePointer<Pointer>.allocate(capacity: 1)
+  pointer.initialize(to: toPointer())
+  return pointer
+}
+}
+```
+
+**销毁** deinitialize + deallocate
+
+```Swift
+let pointer = Pointer(x: 100.0, y: 112.0)
+let unsafe = pointer.toUnsafePointer()
+
+print("unsafe.pointee=\(unsafe.pointee)") 
+// unsafe.pointee=Pointer(x: 100.0, y: 112.0)
+ 
+unsafe.deinitialize(count: 1)
+unsafe.deallocate()
+```
+
+## 19. GCD与延迟调用
+
+```Swift
+let workQueue = DispatchQueue.init(label: "workQueue")
+
+workQueue.async {
+    print("work")
+    Thread.sleep(forTimeInterval: 3)
+
+    DispatchQueue.main.async {
+        print("main update UI")
+    }
+}
+
+```
+
+延迟调用delay
+
+```Swift
+    // MARK: - GCD
+
+    typealias Task = (_ cancel : Bool) -> Void
+
+    func delay(_ time: TimeInterval, task: @escaping ()->()) ->  Task? {
+
+        func dispatch_later(block: @escaping ()->()) {
+            let t = DispatchTime.now() + time
+            DispatchQueue.main.asyncAfter(deadline: t, execute: block)
+        }
+        
+        var closure: (()->Void)? = task
+        var result: Task?
+
+        let delayedClosure: Task = {
+            cancel in
+            if let internalClosure = closure {
+                if (cancel == false) {
+                    DispatchQueue.main.async(execute: internalClosure)
+                }
+            }
+            closure = nil
+            result = nil
+        }
+
+        result = delayedClosure
+
+        dispatch_later {
+            if let delayedClosure = result {
+                delayedClosure(false)
+            }
+        }
+
+        return result;
+        
+    }
+
+    func cancel(_ task: Task?) {
+        task?(true)
+    }
+
+```
+
+```Swift
+let task = delay(3) {
+    print("delay 3 sec")
+}
+
+///仔细想想需要取消么？
+cancel(task)
+
+
+```
+
+
+
+## 20.
