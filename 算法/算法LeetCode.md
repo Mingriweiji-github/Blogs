@@ -1,5 +1,9 @@
 [为什么要Leetcode编程训练](https://coolshell.cn/articles/12052.html)
 
+![图⽚片来源:http://www.bigocheatsheet.com/](http://q2yey8eca.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6.png)
+
+
+
 ## 1、栈和队列
 
 #### [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/submissions/)
@@ -283,7 +287,7 @@ Heap Wiki
 
 #### 239、[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 
-## 哈希表 与双指针法
+## 4、哈希表 与双指针法
 
 #### [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
 
@@ -301,20 +305,30 @@ Heap Wiki
 
 
 
-#### 15. [三数之和](https://leetcode-cn.com/problems/3sum/)  
+#### 15. [三数之和](https://leetcode-cn.com/problems/3sum/)  (硅谷面试)
 
 给定一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？找出所有满足条件且不重复的三元组。
 
 > 注意：答案中不可以包含重复的三元组。
 
-[解题思路1](https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/) 
+解题思路：
 
-[解题思路2图解三数之和](https://leetcode-cn.com/problems/3sum/solution/three-sum-giftu-jie-by-githber/)
+- 1、可以三重loops循环时间复杂度是O(*n3*)
+- 2、可以两层循环得到a+b,然后在Set集合中查找符合-(a+b)的值是否存在，时间复杂度是O(*n*2)
+- 3、先排序 后查找：时间复杂度为O(*n*2)，先排序后得到元素a, 元素b从数组下标1开始，元素c从数组下标array.length开始，检查（a + b + c）的值：
+  - 如果（a + b + c）> 0, c--
+  - 如果 （a + b + c）< 0, b++
+  - 如果（a + b + c） == 0， 得到结果
+  - 整个过程时间复杂度是O(N * N)
+
+[解题思路3](https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/) 
+
+
 
 
 
 ```Java
-class Solution {
+
     public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> ans = new ArrayList();
         int len = nums.length;
@@ -340,7 +354,6 @@ class Solution {
         }        
         return ans;
     }
-}
 
 作者：guanpengchn
 链接：https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/
@@ -354,3 +367,38 @@ class Solution {
 #### 拓展：[K数之和](https://leetcode-cn.com/problems/4sum/solution/kshu-zhi-he-de-tong-yong-mo-ban-by-mrxiong/)
 
 #### [242、有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+
+## 5、二叉树二叉搜索树BST
+
+#### [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+
+1、递归法
+
+- 限定每个节点值的范围来验证二叉搜索树。
+- 遍历节点root时，给出root值的范围(minv,maxv), minv < root.val < maxv
+- 当root.val超出 范围(minv,maxv) 时，就不算二叉搜索树了。
+- 递归左子树时，左子树的最大值不能超过root的值。
+- 递归左子树时，右子树的最小值不能小于root的值。
+
+作者：jason-2
+链接：https://leetcode-cn.com/problems/validate-binary-search-tree/solution/di-gui-fa-by-jason-2/
+来源：力扣（LeetCode）
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+```python
+    typedef long long ll;
+    bool isValidBST(TreeNode* root) {
+        return dfs(root,LLONG_MIN,LLONG_MAX);
+    }
+    
+    bool dfs(TreeNode* rt,ll minv,ll maxv){
+        if(!rt) return true;
+        if(rt->val < maxv && rt->val > minv 
+           && dfs(rt->left,minv,rt->val) 
+           && dfs(rt->right,rt->val,maxv)) return true;
+        return false;
+    }
+
+```
+
+[官方解决方案](https://leetcode-cn.com/problems/validate-binary-search-tree/solution/yan-zheng-er-cha-sou-suo-shu-by-leetcode/)

@@ -1,0 +1,35 @@
+{
+    "title": "Swift必备",
+    "author": "KM1984",
+    "gitbook": "3.2.3",
+    "root": "./",
+    "plugins": [
+        "-lunr","-search","search-pro",
+        "back-to-top-button",
+        "highlight","prism","prism-themes",
+        "anchor-navigation-ex",
+        "github",
+        "disqus"
+    ],
+
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+          "showLevel": false
+        },
+        "github": {
+            "url": "https://github.com/Mingriweiji-github"
+        },
+        "theme-default": {
+            "showLevel": true
+        },
+        "disqus": {
+          "shortName": "crifan"
+        },
+        "prism": {
+          "css": [
+            "prism-themes/themes/prism-material-oceanic.css"
+          ]
+        }
+        
+    }
+}
