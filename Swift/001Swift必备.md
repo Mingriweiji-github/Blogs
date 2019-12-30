@@ -1,6 +1,6 @@
-[toc]
 
-# Swift必备 Tips
+
+# 第一章：Swift必备 Tips
 
 ####1、闭包
 
@@ -18,16 +18,13 @@
 
 ```Swift
 
-var name: ()->() = {
+var name: ()->() = {[weak self] in
 
-[weak self] in
+    if let strongSelf = self {
 
-if let strongSelf = self {
+    		print("The name is (strongSelf.name)")
 
-print("The name is (strongSelf.name)")
-
-}
-
+    }
 }
 
 ```
@@ -54,13 +51,15 @@ class func animate(withDuration duration: TimeInterval, animations: @escaping ()
 
 
 
-#### 4、defer的使用注意点
+#### 4、[defer的使用注意点](https://onevcat.com/2018/11/defer/)
 
 ######## defer的作用域
 
+> A `defer` statement is used for executing code just before transferring program control outside of **the scope that the defer statement appears in**.
+
 **以前很单纯地认为 defer 是在函数退出的时候调用，并没有注意其实是当前 scope 退出的时候调用这个事实，造成了这个错误。在 if，guard，for，try 这些语句中使用 defer 时，应该要特别注意这一点。**
 
-<img src="/Users/mac/Downloads/图像 2019-12-5，下午6.41-1.jpg" alt="图像 2019-12-5，下午6.41-1" style="zoom:150%;" />
+
 
 
 
@@ -78,9 +77,9 @@ let data = 1...3
 
 let result = data.lazy.map { (i: Int) -> Int in
 
-print("准备处理(i)")
+    print("准备处理(i)")
 
-return i * 2
+    return i * 2
 
 }
 
@@ -88,7 +87,7 @@ print("准备访问结果")
 
 for i in result {
 
-print("处理后的结果:(i)")
+		print("处理后的结果:(i)")
 
 }
 
@@ -124,11 +123,11 @@ done
 
 struct Car {
 
-let logo: String
+    let logo: String
 
-var wheel: Int
+    var wheel: Int
 
-let door: Int
+    let door: Int
 
 }
 
@@ -144,7 +143,7 @@ print("属性个数:(mirror.children.count)")
 
 mirror.children.map { (child) -> Any in
 
-print("label: (String(describing: child.label)), value: (child.value)")
+		print("label: (String(describing: child.label)), value: (child.value)")
 
 }
 
@@ -162,7 +161,7 @@ let homeProperty = Mirror(reflecting: self)
 
 homeProperty.children.map {
 
-LOG.D("home property:($0)")
+		LOG.D("home property:($0)")
 
 }
 
@@ -187,14 +186,14 @@ LOG.D("home property:($0)")
 ######## 1.for in + enumerated 获取索引 index
 
 ```Swift
-				let array = ["Apple", "Google", "Amazon"]
-        for item in array {
-          print("company name is :(item)")
-        }
-        ///配合array.enumerated()使用
-        for (index, item) in array.enumerated() {
-            print("index:(index), item:(item)")
-        }
+let array = ["Apple", "Google", "Amazon"]
+for item in array {
+  print("company name is :(item)")
+}
+///配合array.enumerated()使用
+for (index, item) in array.enumerated() {
+    print("index:(index), item:(item)")
+}
 ```
 
 
@@ -202,16 +201,16 @@ LOG.D("home property:($0)")
 ######## 2.array.firstIndex(of:)获取index
 
 ```Swift
-				///配合array.firstIndex(of:)使用
-        let googleIndex = array.firstIndex(of: "Google")
-        print("googleIndex is : (googleIndex ?? 0)")
-				///配合array.firstIndex(where:)使用
-        if let index = array.firstIndex(where: { $0.hasPrefix("A") }) {
-            print("array.firstIndex is (index)")
-        }
-        if let item = array.first(where: { $0.hasPrefix("A")}{
-            print("array.first is :(item)")
-        }
+///配合array.firstIndex(of:)使用
+let googleIndex = array.firstIndex(of: "Google")
+print("googleIndex is : (googleIndex ?? 0)")
+///配合array.firstIndex(where:)使用
+if let index = array.firstIndex(where: { $0.hasPrefix("A") }) {
+    print("array.firstIndex is (index)")
+}
+if let item = array.first(where: { $0.hasPrefix("A")}{
+    print("array.first is :(item)")
+}
 ```
 
 #### Array.forEach()
@@ -219,25 +218,25 @@ LOG.D("home property:($0)")
 ######## 2.1forEach()和函数式编程结合使用
 
 ```swift
-				let array = ["1", "2", "3", "4", "5", "6"]
-        ///使用forEach
-        array.map { Int($0)! }.forEach { num in
-            print(num)
-        }
+let array = ["1", "2", "3", "4", "5", "6"]
+///使用forEach
+array.map { Int($0)! }.forEach { num in
+    print(num)
+}
 ```
 
 ######## 2.2forEach()遍历optional集合会自动过滤nil
 
 ```Swift
-				let optionalString: [String]? = nil
-        //使用forEach强制解包option，会过滤
-        optionalString?.forEach { str in
-            print("str is (str)")
-        }
-        ///使用for-in强制解包optional，会crash
-        for str in optionalString! {
-            print("str is (str)")
-        }
+let optionalString: [String]? = nil
+//使用forEach强制解包option，会过滤
+optionalString?.forEach { str in
+    print("str is (str)")
+}
+///使用for-in强制解包optional，会crash
+for str in optionalString! {
+    print("str is (str)")
+}
 ```
 
 #### 11.Swift单利写法
@@ -387,13 +386,13 @@ replace字符串指定range为我们想要的字符串
 
 #### 1、String还是NSString?
 
-    ```Swift
-//or use NSString
+```swift
 
+//or use NSString
 let nsString = (str as NSString).replacingCharacters(in: nsRange, with: "bb")
 print("nsString is \(nsString)") // Abble
-    ```
 
+```
 #### 18.UnsafeMutablePointer
 
 **创建使用allocate+initialize**
@@ -821,5 +820,22 @@ struct Person : Codable {
         case age
     }
 }
+```
+
+示例2
+
+```Json
+// jsonString
+{"menu": {
+    "id": "file",
+    "value": "File",
+    "popup": {
+        "menuitem": [
+            {"value": "New", "onclick": "CreateNewDoc()"},
+            {"value": "Open", "onclick": "OpenDoc()"},
+            {"value": "Close", "onclick": "CloseDoc()"}
+        ]
+    }
+}}
 ```
 
