@@ -1,6 +1,47 @@
 [为什么要Leetcode编程训练](https://coolshell.cn/articles/12052.html)
 
 ![图⽚片来源:http://www.bigocheatsheet.com/](http://q2yey8eca.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6.png)
+# 为什么学算法？
+
+#### 为什么要学习算法？
+
+- 算法是内功，决定你武功的高度
+- 算法能让你更好更快理解一门语言系统的设计理念
+- 算法能让你触类旁通
+
+
+
+# 数据结构和算法基础篇
+
+## 数据结构
+
+- [动画| 什么是二分搜索树？](https://mp.weixin.qq.com/s/0nubI8XPcUJYAaEk-Eomrg)
+- [动画| 二叉树有几种存储方式？](https://mp.weixin.qq.com/s/h_mO28pmE_uNbHA5GVmWPA)
+- [动画| 二叉树在实际生活中的应用？](https://mp.weixin.qq.com/s/tFJqwKa-adXW0kXGxldisg)
+
+- [红黑树](https://mp.weixin.qq.com/s/XqxOp5jXqDg6fez6GphLCA)
+
+## 算法思想
+- [什么是递归？](https://mp.weixin.qq.com/s/DFLD41tFVtlXVYgg2QJcsQ)
+- [什么是分支？](https://mp.weixin.qq.com/s/G7hlvXeW_qNDPOwnIFteug)
+- [Hash算法原理及应用](https://mp.weixin.qq.com/s/Q0w59YQmZN7tWxSXPR1vrA)
+- [动画 | 什么是快速排序？](https://mp.weixin.qq.com/s/Rh0O3ifxOtmHocr4NNNSYw)
+
+- [动画：面试官问我插入排序和冒泡排序哪个更牛逼？](https://mp.weixin.qq.com/s/WOpU112IcvRed078mQ8ovA)
+
+- [动画: 快速排序 | 如何求第 K 大元素？](https://mp.weixin.qq.com/s/-9mD9LC4OrN5dl5DQSHyNA)
+
+- [动画| 什么是堆排序？](https://mp.weixin.qq.com/s/nXo4A-_NX_JKmTAbbTYVRg)
+
+- [动画| 什么是希尔排序](https://mp.weixin.qq.com/s/u397yZKJzuyTuzQDCcE7mw)
+
+
+## 算法题目推荐
+
+- [初级算法](https://leetcode-cn.com/explore/interview/card/top-interview-questions-easy)
+- [中级算法](https://leetcode-cn.com/explore/interview/card/top-interview-questions-medium/)
+- [高级算法](https://leetcode-cn.com/explore/interview/card/top-interview-questions-hard/)
+
 
 
 
@@ -360,7 +401,30 @@ Heap Wiki
 
 ```
 
+#### 求最小公倍数LCM
 
+GCD：最大公约数(Greatest Common Divisor)。指两个或多个整数共有约数中最大的一个。
+
+LCM：最小公倍数(Least Common Multiple)。两个或多个整数公有的倍数叫做它们的公倍数，其中除0以外最小的一个公倍数就叫做这几个整数的最小公倍数。
+
+最小公倍数与最大公约数的关系：** 
+
+```
+LCM(A,B)×GCD(A,B)=A×B
+```
+
+其中LCM是最小公倍数，GCD是最大公约数。
+
+```Swift
+//MARK:求最小公倍数 
+func lcm(_ a:Int,_ b:Int) -> Int {
+  //求最大公约数    
+  let num:Int = gcd(a,b)
+  return a * b / num
+}
+```
+
+所以求最小公倍数的问题可以转化为求最大公约数。
 
 ####  [18. 四数之和](https://leetcode-cn.com/problems/4sum/)
 
@@ -368,38 +432,459 @@ Heap Wiki
 
 #### [242、有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 
-## 5、二叉树二叉搜索树BST
+## 5、二叉树
 
-#### [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+### 10道常见题目
+
+- [二叉树的前序遍历：（递归+迭代）](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+- [二叉树的中序遍历：（递归+迭代）](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [二叉树的后序遍历：（递归+迭代）](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+- [二叉树的层次遍历：（迭代）](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+- [二叉树的层次遍历II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+
+- [二叉树的最大深度：（递归+迭代）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+
+- [二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/)
+- [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+
+- [翻转一颗二叉树](https://leetcode-cn.com/problems/invert-binary-tree)
+
+
+
+- [从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+- [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [从前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
+- [二叉树展开为链表:  （迭代+递归 )](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
+- 思考：已知前序、中序遍历结果求后序遍历
+- 思考：已知中序、后序遍历结果求前序遍历
+
+- [Objective-C版本](https://juejin.im/post/5c46b19ee51d45653e3c9ae3#heading-13)
+
+
+
+## DFS与BFS概念
+
+- DFS 深度优先搜索：以深度为优先级，从根节点开始一直到达叶子结点，再返回根到达另一个分支。可以细分为先序遍历，中序遍历和后序遍历。
+
+- BFS 广度优先搜索：按照高度顺序一层一层地访问，高层的结点会比低层的结点先被访问到。相当于层次遍历。
+
+### 递归法
+
+#### 1、前序遍历
+
+前序遍历递归法：左子树-根节点-右子树
+
+```Swift
+func preorderTraversal(_ root: TreeNode?) -> [Int] {
+    guard let root = root else { return[]}
+
+    var res: [Int] = []
+    res.append(root.val)
+    res += preorderTraversal(root.left)
+    res += preorderTraversal(root.right)
+
+    return res
+
+}
+```
+
+
+
+#### 2、中序遍历
+
+中序遍历递归法：左子树-根节点-右子树
+
+```Swift
+func inorderTraversal(_ root: TreeNode?) -> [Int] {
+        guard let root = root else  { 
+            return []
+        }
+        var res: [Int] = []
+        res += inorderTraversal(root.left)
+        res.append(root.val)
+        res += inorderTraversal(root.right)
+        
+        return res
+}
+
+```
+
+
+
+#### 3、后序遍历
+
+后序遍历递归法：左子树-右子树-根节点
+
+```Swift
+func postorderTraversal(_ root: TreeNode?) -> [Int] {
+    guard let root = root else { return [] }
+    var result: [Int] = []
+    if let left = root.left {
+        result += postorderTraversal(left)
+    }
+    if let right = root.right {
+        result += postorderTraversal(right)
+    }
+    result.append(root.val)
+    return result
+}
+```
+
+#### 4.1、[二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+
+
+
+![该图是借用的网上的，侵权删](https://img-blog.csdn.net/20180226001828381)
+
+图片来自网络，侵权删
+
+实现思路：使用队列
+1.将根节点入队
+2.循环执行以下操作，直到队列为空
+
+>  - 将队头节点A出队，进行访问
+>  - 将A的左子节点入队
+>  - 将A的右子节点入队
+
+```Swift
+func levelOrder(_ root: TreeNode?) -> [[Int]] {
+      guard let root = root else { return []}
+      var result: [[Int]] = []
+      var queue: [TreeNode] = []
+      queue.append(root)
+      while !queue.isEmpty {
+          //创建存储当前level的数组
+          var level: [Int] = []
+          for _ in 0..<queue.count {
+              //remove队列头结点，并且把该头结点的left和right加入到队列中，循环到队列为空
+              let node = queue.removeFirst()
+              level.append(node.val)
+              if let left = node.left { queue.append(left) }
+              if let right = node.right { queue.append(right)}
+          }
+          result.append(level)
+
+      }
+
+      return result
+}
+```
+
+#### 4.2、[二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+
+从下到上依次返回每一层的结果，解决方案依然是使用队列的先进先出，node入队列的通知，node的左子树、右子树依次入队列，然后用一个temp数组来保存每一层的数值，插入到结果results数组下标位置为0的位置。
+
+代码如下：
+
+```Swift
+func levelOrderBottom(_ root: TreeNode?) -> [[Int]] {
+    guard let root = root else { return [] }
+    var results: [[Int]] = []
+    var queue: [TreeNode] = [root]
+    while !queue.isEmpty {
+        var levelItems: [Int] = []
+        for _ in 0..<queue.count {
+            let node = queue.removeFirst()
+            levelItems.append(node.val)
+            if let left = node.left { queue.append(left) }
+            if let right = node.right { queue.append(right) }
+        }
+        results.insert(levelItems, at: 0)
+    }
+    return results
+}
+```
+
+
+
+**自底向上返回层次遍历的值与普通的层次遍历的唯一区别在于每一层的结果levelItems是插入到数组下标为0的位置上，利用swift中数组插入方法insert(levelItems,at: 0)即可。**
+
+#### 4.2、迭代法解决前中后序
+
+**递归和非递归的区别，无非是一个人为保存现场，一个代码底层自动保存现场。**
+
+#### 前序遍历迭代法
+
+- 利用栈实现
+  1.将root入栈
+  2.循环执行以下操作，直到栈为空
+  - 弹出栈顶节点top，进行访问
+  - 将top.right入栈
+  - 将top.left入栈
+
+
+
+#### 中序遍历迭代法
+
+利用栈实现
+1.设置node=root 
+2.循环执行以下操作
+✓如果node!=null 
+✓将node入栈
+✓设置node=node.left 
+✓如果node==null 
+✓如果栈为空，结束遍历
+✓如果栈不为空，弹出栈顶元素并赋值给node
+
+​	 ➢对node进行访问
+​	➢设置node=node.right
+
+#### 后序遍历迭代法
+
+◼利用栈实现
+1.将root入栈
+2.循环执行以下操作，直到栈为空
+
+- 如果栈顶节点是叶子节点或者上一次访问的节点是栈顶节点的子节点
+
+  ✓弹出栈顶节点，进行访问
+
+  否则
+  ✓将栈顶节点的right、left按顺序入栈
+
+---
+
+#### [5、 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+
+首先要明白什么是最大深度：二叉树最大深度是指根节点到最远的叶子节点最长路径上的节点数目
+
+解法一：要求二叉树的最大深度按照递归思想也就是求max(leftHeight, rightHeight) + 1
+
+```Swift
+//1、递归法：max(leftHeight, rightHeight) + 1
+func maxDepth(_ root: TreeNode?) -> Int {
+    if let root = root {
+        var leftHeight = 0, rightHeight = 0
+        if let left = root.left { leftHeight = maxDepth(left) }
+        if let right = root.right { rightHeight = maxDepth(right) }
+        return max(leftHeight, rightHeight) + 1
+    }
+    return 0
+}
+```
+
+解放二：使用队列，分层遍历DFS，记录层数即可
+
+```Swift
+  //2、利用队列-和分层遍历类似
+  //只不过分层遍历是头结点出队列时，将头队列的值保存起来，这里求最大深度是depth += 1
+  func maxDepth(_ root: TreeNode?) -> Int {
+  guard let root = root else { return 0 }
+  var depth = 0
+  var queue: [TreeNode] = [root]
+  while !queue.isEmpty {
+      depth += 1
+      let size = queue.count
+      for _ in 0..<size {
+          let node = queue.removeFirst()
+          if let left = node.left { queue.append(left) }
+          if let right = node.right { queue.append(right) }
+      }
+  }
+  return depth
+```
+
+
+
+
+
+#### [6、 二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/)
+
+
+
+
+#### [7、 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
 1、递归法
 
-- 限定每个节点值的范围来验证二叉搜索树。
-- 遍历节点root时，给出root值的范围(minv,maxv), minv < root.val < maxv
-- 当root.val超出 范围(minv,maxv) 时，就不算二叉搜索树了。
-- 递归左子树时，左子树的最大值不能超过root的值。
-- 递归左子树时，右子树的最小值不能小于root的值。
+递归法解题的关键在于：
+- 1、临界条件:root==null 
+- 2、递归左子树，找到最大值max和根节点root.val进行比较，如果左子树的max大于等于根节点的值，返回false
+- 3、递归右子树，找到右子树的最小值min和根节点root.val比较，如果右子树的min小于等于根节点，返回false
 
-作者：jason-2
-链接：https://leetcode-cn.com/problems/validate-binary-search-tree/solution/di-gui-fa-by-jason-2/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-```python
-    typedef long long ll;
-    bool isValidBST(TreeNode* root) {
-        return dfs(root,LLONG_MIN,LLONG_MAX);
+```Java
+	public boolean helper(TreeNode root, Integer min, Integer max) {
+        if (root == null) return true;
+
+        if (min != null && min > root.val) return false;
+        if (max != null && max < root.val) return true;
+
+        return helper(root.left,min,root.val) && helper(root.right,root.val,max);
+        
     }
-    
-    bool dfs(TreeNode* rt,ll minv,ll maxv){
-        if(!rt) return true;
-        if(rt->val < maxv && rt->val > minv 
-           && dfs(rt->left,minv,rt->val) 
-           && dfs(rt->right,rt->val,maxv)) return true;
-        return false;
+    public boolean isValidBST(TreeNode root) {
+        return helper(root,null,null);
     }
 
 ```
 
-[官方解决方案](https://leetcode-cn.com/problems/validate-binary-search-tree/solution/yan-zheng-er-cha-sou-suo-shu-by-leetcode/)
+上面的help()方法不能通过测试用例[1,1]这种重复元素的数组，判断条件错误，修改如下：
 
+Java版本
+
+```Java
+public boolean helper(TreeNode root, Integer min, Integer max) {
+        if (root == null) return true;
+
+        if (min != null && min >= root.val) return false;
+        if (max != null && max <= root.val) return true;
+
+        return helper(root.left,root.val,max) && helper(root.right,min,root.val);
+        
+}
+```
+
+Swift版本:注意可选项解包，和判断条件是left.max >= root.val, right.min <= root.val
+
+```Swift
+		func isValidBST(_ root: TreeNode?) -> Bool {
+        guard let root = root else { return true }
+        return helper(root,nil,nil)
+    }
+
+    func helper(_ root: TreeNode?, _ min: Int?, _ max: Int?) -> Bool {
+        guard let root = root else { return true }
+
+      //左节点需要小于根节点值
+        if let min = min,
+        min <= root.val {
+            return false
+        }
+      //右节点需要大于根节点
+        if let max = max,
+        max >= root.val {
+            return false
+        }
+        return helper(root.left, root.val,max) && helper(root.right, min, root.val)
+    }
+```
+
+#### 8、对称二叉树
+
+解题思路：给定一个二叉树，看它是否镜像对称关键是1、左右子树的值相等 2、左子树的left和右子树的right是镜像对称，利用递归思想容易解决。
+
+24ms代码实现如下:
+
+```Swift
+  func isSymmetric(_ root: TreeNode?) -> Bool {
+      return isMirror(root,root)
+  }
+  func isMirror(_ p: TreeNode?, _ q: TreeNode?) -> Bool{
+      //注意临界条件判断，先判断p、q均为空的情况
+      if p == nil && q == nil {
+          return true
+      }
+      if p == nil || q == nil {
+          return false
+      }         
+      return (p!.val == q!.val) && isMirror(p!.left, q!.right) && isMirror(p!.right, q!.left)
+  }
+```
+
+20ms代码实现如下：
+
+```Swift
+ func isSymmetric(_ root: TreeNode?) -> Bool {
+      guard let root = root else { return true }
+      return isMirror(root.left, root.right)
+  }
+  func isMirror(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
+      if p == nil, q == nil {
+          return true
+      }
+      if let p = p, let q = q, p.val == q.val {
+          return isMirror(p.left, q.right) && isMirror(p.right, q.left)
+      }
+      return false
+  }
+```
+
+
+
+#### [9、翻转一颗二叉树](https://leetcode-cn.com/problems/invert-binary-tree)
+
+迭代就要遍历二叉树，利用队列交换每个结点的左右子树。
+
+8ms迭代法：
+
+```Swift
+func invertTree(_ root: TreeNode?) -> TreeNode? {
+        //迭代法翻转二叉树,交换每一个结点的左右子树，我们用队列储存没有交换过的左右子树的结点，拿到current结点后，交换左右结点，然后再将该节点的左右结点加入到队列中。直到队列为空截止。
+        guard let root = root else { return nil }
+        var queue: [TreeNode] = [root]
+        while !queue.isEmpty {
+            var node = queue.removeFirst()
+            let temp = node.left
+            node.left = node.right
+            node.right = temp
+            if let left = node.left { queue.append(left) }
+            if let right = node.right { queue.append(right) }
+        }
+        return root
+    }
+```
+
+16ms递归法：
+
+```Swift
+func invertTree(_ root: TreeNode?) -> TreeNode? {
+        guard let root = root else { return nil }
+        let temp = root.left
+        root.left = root.right
+        root.right = temp
+        
+        invertTree(root.left)
+        invertTree(root.right)
+
+        return root
+    }
+```
+
+8ms递归法：同上面的区别是没有解包，解包耗时8ms?
+
+```Swift
+func invertTree(_ root: TreeNode?) -> TreeNode? {
+    if root == nil { return nil }
+    let temp = root?.left
+    root?.left = root?.right
+    root?.right = temp
+
+    invertTree(root?.left)
+    invertTree(root?.right)
+
+    return root
+}
+```
+
+## 6、二叉树搜索树
+
+### 10道常见题目
+
+- #### [ 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+
+- #### [二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
+
+- #### [二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
+
+- #### [删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
+
+- #### [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)
+
+- #### [二叉搜索树结点最小距离](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/)
+
+- #### [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) *
+
+- #### [二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) *
+
+- #### [二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) *
+
+- #### [二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) **
+
+- #### [二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/) **
+
+- #### [恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)
+
+- #### [平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
+
+  
