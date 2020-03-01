@@ -18,6 +18,25 @@
 
 8、ScreenFlow「MacOS苹果系统独占的最好的屏幕录像和视频编辑软件」 
 
+通过软件[soundflower](https://link.zhihu.com/?target=https%3A//soundflower.en.softonic.com/mac)来解决详细可以参看：
+
+[【Mac/OBS/直播】Mac电脑如何使用OBS直播](https://pic2.zhimg.com/v2-e03891afbaf4229c2b675ad3af6a0675_180x120.jpg)](https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/av33784118/)
+
+
+
+10.15.2版本时候soundflower失效，然后使用一个叫**IshowU**的软件来解决，详细可以查看：
+
+iShowU 链接:[https://pan.baidu.com/s/1zNVTmzqOcC-B5_znLbyFqA](https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1zNVTmzqOcC-B5_znLbyFqA) 密码:dzgi
+
+[【Mac/OBS/Catalina】MacOS升级到Catalina之后不能使用OBS？不只是你的打开方式不对而已，使用iShowU来捕获系统的声音](https://pic2.zhimg.com/v2-7ce018b9dbd998d9dbb95072e0b5f505_180x120.jpg)](https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/av78168177/)
+
+
+
+作者：浮生甲第
+链接：https://www.zhihu.com/question/20251726/answer/957730579
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
 9、Aimersoft video Converter Uitimate「转码软件」
 
 
