@@ -21,6 +21,7 @@
 [关于iOS离屏渲染的深入研究](https://zhuanlan.zhihu.com/p/72653360)
 
 [深入浅出GCD](https://xiaozhuanlan.com/u/3785694919)
+[深入浅出GCD之dispatch_group](https://xiaozhuanlan.com/topic/0863519247)
 
 [RunLoop要点](http://aaaboom.com/?p=37)   
 [RunLoop系列之源码分析](http://aaaboom.com/?p=34#wow1)   
