@@ -2,9 +2,18 @@
 # 端智能
 [轻松玩转移动AI，一键集成的端智能框架Pitaya](https://mp.weixin.qq.com/s/XF2k9MGcbY_hqlLEjl0hhw)
 
+# 效率&工具
+[一款可让大型iOS工程编译速度提升50%的工具](https://mp.weixin.qq.com/s/uBpkelG8q_xmskWPYyWONA)
+
+
 # Flutter
 [字节跳动为什么选用Flutter：并非跨平台终极之选，但它可能是不一样的未来](https://mp.weixin.qq.com/s/OlSEpK-KKfpypwQFnJ4kfQ)
 [西瓜视频UME - 丰富的Flutter调试工具](https://mp.weixin.qq.com/s/9GjXB9Eu-OP3fIjdQWKklg)
+[美团外卖Flutter动态化实践](https://mp.weixin.qq.com/s/wjEvtvexYytzSy5RwqGQyw)
+[Flutter包大小治理上的探索与实践](https://mp.weixin.qq.com/s/adC-YUWd-xuUlzeAPHzJoQ)
+[外卖客户端容器化架构的演进](https://mp.weixin.qq.com/s/kW5wu7GM7pMRRvN-dQvE2g)
+[让 Flutter 在鸿蒙系统上跑起来](https://mp.weixin.qq.com/s/vTWZRaxvsOS_VRjfh6l4FQ)
+[Flutter Web在美团外卖的实践](https://mp.weixin.qq.com/s/GjFC5_85pIk9EbKPJXZsXg)
 
 
 
@@ -56,18 +65,29 @@
 ![](https://mmbiz.qpic.cn/mmbiz_png/5EcwYhllQOgxv4BKibbw6cq7h91kLkCLaBc5HX9hONLz7yZvzzSgdGkypVFiaZas0KZ7KiahazjEdZBz4ze72zsaw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 # 底层原理
-## 从汇编层面探索 KVO 本质
+
+[从预编译的角度理解Swift与Objective-C及混编机制](https://mp.weixin.qq.com/s/gI9vL1KlHuMzMoWWf2tnIw)
+
 [从汇编层面探索 KVO 本质](https://mp.weixin.qq.com/s/0Yfb-FYorH5GZ3ZB6bMCUQ)
 
 [一招搞定 iOS 14.2 的 libffi crash](https://mp.weixin.qq.com/s/XLqcCfcNhpCA8Tg6LknBCQ)
 
-# 技术探索
-[资源帖丨字节跳动技术 Leader 们推荐的学习资源](https://mp.weixin.qq.com/s/mNZHlBcpJDaBkR5J4ay4Tg)
+# 技术拓展
 [抖音BoostMultiDex优化实践：Android低版本上APP首次启动时间减少80%（一）](https://mp.weixin.qq.com/s/jINCbTJ5qMaD6NdeGBHEwQ)
 [抖音BoostMultiDex优化实践：Android低版本上APP首次启动时间减少80%（二）](https://mp.weixin.qq.com/s/ILDTykAwR0xIkW-d1YzRHw)
 [抖音Android团队-抖音包大小优化-资源优化](https://mp.weixin.qq.com/s/xxrvRKXXDquJaezjrOlLwA)
 [今日头条 Android '秒' 级编译速度优化](https://mp.weixin.qq.com/s/e1L6gB_s5H38unSfhf4c6A)
 [字节跳动在 Go 网络库上的实践](https://mp.weixin.qq.com/s/wSaJYg-HqnYY4SdLA2Zzaw)
+
+[美团万亿级 KV 存储架构与实践](https://mp.weixin.qq.com/s/1woExb3V_PjnrhHYH5Jksg)
+
+# 思维拓展
+[工程师的基本功是什么？该如何练习？听听美团技术大咖怎么说](https://mp.weixin.qq.com/s/vOZb2PUdqMUj17ReMA43GA)
+
+
+[资源帖丨字节跳动技术 Leader 们推荐的学习资源](https://mp.weixin.qq.com/s/mNZHlBcpJDaBkR5J4ay4Tg)
+[推荐收藏 | 美团技术团队的书单](https://mp.weixin.qq.com/s/okG7ZglLB2PPVM_Wz0PFUg)
+
 
 
 # iOS+思维 进阶篇 
