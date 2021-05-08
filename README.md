@@ -4,7 +4,7 @@
 
 [2、今日头条优化实践:iOS 包大小二进制优化，一行代码减少 60 MB 下载大小](https://mp.weixin.qq.com/s/TnqAqpmuXsGFfpcSUqZ9GQ)
 
-- __TEXT 段迁移
+- **针对Mach-O中__TEXT 段迁移**
 - **减少App Store下载大小的原理**
 - **在实践过程中遇到的问题，并从源码的角度详细分析了问题产生的根本原因以及解决方式，解答了相关疑问和上线后遇到的问题。**
 
@@ -17,6 +17,20 @@
 因此，如果你看到 App Store Connect 后台展示的下载大小从 iPhone 11 开始大幅减小，不要惊讶，这是因为 iPhone 11 开始默认搭载的是 iOS 13+ 的系统。
 
 目前推测苹果在 iOS 13 也是在针对压缩做了优化，可能是移除了加密或者是先压缩后加密。]
+
+[3、一招搞定 iOS 14.2 的 libffi crash](https://mp.weixin.qq.com/s/XLqcCfcNhpCA8Tg6LknBCQ)
+
+# App架构
+### 抖音 iOS 工程架构演进
+[抖音 iOS 工程架构演进](https://mp.weixin.qq.com/s/HHH5_IEbsR8iSmXSIdeutw)
+#### 1.抖音项目一开始是单体架构+Cocoapods，业务代码、工程配置、资源文件全部放在一个大业务仓库。由 Podfile 文件描述第三方仓库的依赖版本。
+![](https://mmbiz.qpic.cn/mmbiz_png/5EcwYhllQOgxv4BKibbw6cq7h91kLkCLaGiaIIC7gHZfcc6j8KBCUv4XIqGXRk1L3OIEba1my7JHZo5kDIhRyUZQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+#### 阶段二：分离壳工程后的工程架构（After splitting of host shell pod）
+![2.分离壳工程后，工程配置、部分系统资源、工程主入口被拆分到主宿主壳工程。](https://mmbiz.qpic.cn/mmbiz_png/5EcwYhllQOgxv4BKibbw6cq7h91kLkCLaicPQCz56N51ickoJsKk0vcpsibyOpvGM8UFSLCZETTSjvynjQtH3Z46cw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+#### 阶段三：单仓多组件工程架构（Multicomponents in single repo）
+![](https://mmbiz.qpic.cn/mmbiz_png/5EcwYhllQOgxv4BKibbw6cq7h91kLkCLaJdrzvWg2lPMoQaic7M974BDneCzrdV7KQdCSoEicF5OQia7gHBlEyUd4g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+#### 阶段四：Example 子壳工程架构（Subshell for bizcomponent in example project）
+![](https://mmbiz.qpic.cn/mmbiz_png/5EcwYhllQOgxv4BKibbw6cq7h91kLkCLaBc5HX9hONLz7yZvzzSgdGkypVFiaZas0KZ7KiahazjEdZBz4ze72zsaw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 
 
