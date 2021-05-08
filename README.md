@@ -1,8 +1,19 @@
+
+# 端智能
+[轻松玩转移动AI，一键集成的端智能框架Pitaya](https://mp.weixin.qq.com/s/XF2k9MGcbY_hqlLEjl0hhw)
+
+# Flutter
+[字节跳动为什么选用Flutter：并非跨平台终极之选，但它可能是不一样的未来](https://mp.weixin.qq.com/s/OlSEpK-KKfpypwQFnJ4kfQ)
+[西瓜视频UME - 丰富的Flutter调试工具](https://mp.weixin.qq.com/s/9GjXB9Eu-OP3fIjdQWKklg)
+
+
+
 # App优化
 
 1、二进制：https://github.com/facebookincubator/BOLT
 
-[2、今日头条优化实践:iOS 包大小二进制优化，一行代码减少 60 MB 下载大小](https://mp.weixin.qq.com/s/TnqAqpmuXsGFfpcSUqZ9GQ)
+
+[2.1 今日头条优化实践:iOS 包大小二进制优化，一行代码减少 60 MB 下载大小](https://mp.weixin.qq.com/s/TnqAqpmuXsGFfpcSUqZ9GQ)
 
 - **针对Mach-O中__TEXT 段迁移**
 - **减少App Store下载大小的原理**
@@ -12,13 +23,25 @@
 
 即，若用户的设备 < iOS 13，那么本方案可以减少该设备上 App 32~34%的下载大小；
 
-若用户的设备 >= iOS 13，本方案不会对该设备的 App 的下载大小有进一步优化，也不会有负面影响。
+若用户的设备 >= iOS 13，本方案不会对该设备的 App 的下载大小有进一步优化，也不会有负面影响。]
 
-因此，如果你看到 App Store Connect 后台展示的下载大小从 iPhone 11 开始大幅减小，不要惊讶，这是因为 iPhone 11 开始默认搭载的是 iOS 13+ 的系统。
+[2.2 抖音品质建设 - iOS 安装包大小优化实践篇](https://mp.weixin.qq.com/s/LSP8kC09zjb-sDjgZaikbg)
 
-目前推测苹果在 iOS 13 也是在针对压缩做了优化，可能是移除了加密或者是先压缩后加密。]
+[2.3今日头条 iOS 安装包大小优化 - 新阶段、新实践](https://mp.weixin.qq.com/s/oyqAa8wKdioI5ZDG5LjkfA)
 
-[3、一招搞定 iOS 14.2 的 libffi crash](https://mp.weixin.qq.com/s/XLqcCfcNhpCA8Tg6LknBCQ)
+
+
+[3.1 今日头条品质优化 - 图文详情页秒开实践](https://mp.weixin.qq.com/s/Xqr6rQBbx7XPoBESEFuXJw)
+[3.2 抖音品质建设 - iOS启动优化《原理篇》](https://mp.weixin.qq.com/s/3-Sbqe9gxdV6eI1f435BDg)
+
+
+[4.1 iOS性能优化实践：头条抖音如何实现OOM崩溃率下降50%+](https://mp.weixin.qq.com/s/4-4M9E8NziAgshlwB7Sc6g)
+[4.2 iOS 稳定性问题治理：卡死崩溃监控原理及最佳实践](https://mp.weixin.qq.com/s/cEfIZGtUojKKbhIfUyhTMw)
+
+
+[5 在线教室 iOS 端声音问题综合解决方案](https://mp.weixin.qq.com/s/yFNb0zvPtEjHAtED7-jT0w)
+
+
 
 # App架构
 ### 抖音 iOS 工程架构演进
@@ -32,6 +55,19 @@
 #### 阶段四：Example 子壳工程架构（Subshell for bizcomponent in example project）
 ![](https://mmbiz.qpic.cn/mmbiz_png/5EcwYhllQOgxv4BKibbw6cq7h91kLkCLaBc5HX9hONLz7yZvzzSgdGkypVFiaZas0KZ7KiahazjEdZBz4ze72zsaw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
+# 底层原理
+## 从汇编层面探索 KVO 本质
+[从汇编层面探索 KVO 本质](https://mp.weixin.qq.com/s/0Yfb-FYorH5GZ3ZB6bMCUQ)
+
+[一招搞定 iOS 14.2 的 libffi crash](https://mp.weixin.qq.com/s/XLqcCfcNhpCA8Tg6LknBCQ)
+
+# 技术探索
+[资源帖丨字节跳动技术 Leader 们推荐的学习资源](https://mp.weixin.qq.com/s/mNZHlBcpJDaBkR5J4ay4Tg)
+[抖音BoostMultiDex优化实践：Android低版本上APP首次启动时间减少80%（一）](https://mp.weixin.qq.com/s/jINCbTJ5qMaD6NdeGBHEwQ)
+[抖音BoostMultiDex优化实践：Android低版本上APP首次启动时间减少80%（二）](https://mp.weixin.qq.com/s/ILDTykAwR0xIkW-d1YzRHw)
+[抖音Android团队-抖音包大小优化-资源优化](https://mp.weixin.qq.com/s/xxrvRKXXDquJaezjrOlLwA)
+[今日头条 Android '秒' 级编译速度优化](https://mp.weixin.qq.com/s/e1L6gB_s5H38unSfhf4c6A)
+[字节跳动在 Go 网络库上的实践](https://mp.weixin.qq.com/s/wSaJYg-HqnYY4SdLA2Zzaw)
 
 
 # iOS+思维 进阶篇 
