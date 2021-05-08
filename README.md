@@ -1,6 +1,24 @@
 # App优化
 
-二进制：https://github.com/facebookincubator/BOLT
+1、二进制：https://github.com/facebookincubator/BOLT
+
+[2、今日头条优化实践:iOS 包大小二进制优化，一行代码减少 60 MB 下载大小](https://mp.weixin.qq.com/s/TnqAqpmuXsGFfpcSUqZ9GQ)
+
+- __TEXT 段迁移
+- **减少App Store下载大小的原理**
+- **在实践过程中遇到的问题，并从源码的角度详细分析了问题产生的根本原因以及解决方式，解答了相关疑问和上线后遇到的问题。**
+
+[苹果在 iOS 13 已经对下载大小做了优化，所以本方案无法再对 iOS 13 的设备的下载大小进一步优化。
+
+即，若用户的设备 < iOS 13，那么本方案可以减少该设备上 App 32~34%的下载大小；
+
+若用户的设备 >= iOS 13，本方案不会对该设备的 App 的下载大小有进一步优化，也不会有负面影响。
+
+因此，如果你看到 App Store Connect 后台展示的下载大小从 iPhone 11 开始大幅减小，不要惊讶，这是因为 iPhone 11 开始默认搭载的是 iOS 13+ 的系统。
+
+目前推测苹果在 iOS 13 也是在针对压缩做了优化，可能是移除了加密或者是先压缩后加密。]
+
+
 
 # iOS+思维 进阶篇 
 
