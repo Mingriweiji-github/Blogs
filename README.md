@@ -1,4 +1,8 @@
 
+# 算法篇
+[C++算法讲解](https://github.com/youngyangyang04/leetcode-master)
+
+
 # 端智能
 [轻松玩转移动AI，一键集成的端智能框架Pitaya](https://mp.weixin.qq.com/s/XF2k9MGcbY_hqlLEjl0hhw)
 
