@@ -19,6 +19,8 @@
 [让 Flutter 在鸿蒙系统上跑起来](https://mp.weixin.qq.com/s/vTWZRaxvsOS_VRjfh6l4FQ)
 [Flutter Web在美团外卖的实践](https://mp.weixin.qq.com/s/GjFC5_85pIk9EbKPJXZsXg)
 
+# Swift
+[SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
 
 
 # App优化
