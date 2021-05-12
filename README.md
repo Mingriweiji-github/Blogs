@@ -18,6 +18,9 @@
 
 
 # App优化
+[抖音品质建设-iOS 启动优化《原理篇》](https://mp.weixin.qq.com/s/3-Sbqe9gxdV6eI1f435BDg)
+
+[抖音 iOS 启动优化实战](https://www.infoq.cn/article/tx0tcv9h6lkvknokqn7i)
 
 1、二进制：https://github.com/facebookincubator/BOLT
 
