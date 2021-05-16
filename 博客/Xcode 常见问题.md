@@ -11,7 +11,9 @@
 时间：2021.5.16
 
 1.最新版Xcode12.5重新报错的编译xxx module库
+
 2.pod repo update
+
 3.pod install --repo-update
 
 
