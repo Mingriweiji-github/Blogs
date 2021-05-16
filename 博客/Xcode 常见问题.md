@@ -10,10 +10,9 @@
 工具： Xcode 12.4升级Xcode12.5
 时间：2021.5.16
 
-重新编译
-pod repo update
-重新install
-pod install --repo-update
+1.最新版Xcode12.5重新报错的编译xxx module库
+2.pod repo update
+3.pod install --repo-update
 
 
 
