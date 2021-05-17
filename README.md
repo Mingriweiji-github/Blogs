@@ -1,9 +1,72 @@
+# [计算机硬件和网络](https://github.com/crisxuan/bestJavaer)
+## 操作系统系列
+
+- [硬核操作系统入门](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-overview.md)
+- [硬核操作系统之进程和线程](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-processandthread.md)
+- [硬核操作系统之内存管理](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-rammanage.md)
+- [硬核操作系统之文件系统](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-filesystem.md)
+- [硬核操作系统之输入输出](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-inputoutput.md)
+- [硬核操作系统之死锁](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-deadlock.md)
+- [操作系统核心概念](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-importantconcept.md)
+- [操作系统网站推荐](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-recommand.md)
+- [操作系统硬核回答](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-howtolearn.md)
+- [计算机基础常识](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/computer-youshouldknow.md)
+- [操作系统超全面试题](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-interview-second.md)
+
+## 计算机入门系列
+
+- [程序员需要了解的硬核知识之 CPU](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-cpu.md)
+- [程序员需要了解的硬核知识之内存](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-ram.md)
+- [程序员需要了解的硬核知识之二进制](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-binary.md)
+- [程序员需要了解的硬核知识之磁盘](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-disk.md)
+- [程序员需要了解的硬核知识之压缩算法](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-compression.md)
+- [程序员需要了解的硬核知识之操作系统和应用](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-osandapp.md)
+- [程序员需要了解的硬核知识之操作系统入门](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-os.md)
+- [程序员需要了解的硬核知识之控制硬件](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-disk.md)
+
+## 计算机网络系列
+
+- [计算机网络基础入门](https://github.com/crisxuan/bestJavaer/blob/master/network/network-basic.md)
+- [你不得不知的计算机网络](https://github.com/crisxuan/bestJavaer/blob/master/network/network-center.md)
+- [计算机网络应用层](https://github.com/crisxuan/bestJavaer/blob/master/network/network-appLevel.md)
+- [计算机网络基础知识](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-network-basic.md)
+- [TCP/IP 基础知识](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-network-tcpip.md)
+- [计算机网络应用层协议](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-application.md)
+- [计算机网络传输层](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-translayer.md)
+- [计算机网络网络层](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-internet.md)
+- [一文了解 ARP 协议](https://github.com/crisxuan/bestJavaer/blob/master/network/network-arp.md)
+- [一文了解 DNS 协议](https://github.com/crisxuan/bestJavaer/blob/master/network/network-dns.md)
+- [一文了解 ICMP 协议](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/network-icmp.md)
+- [一文了解 DHCP 协议](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/network-dhcp.md)
+- [计算机网络数据链路层](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/network-datalink.md)
+- [Web 页面的请求流程，超详细](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/web-request.md)
+
+## 汇编语言
+
+- [从指令集的角度看汇编](https://github.com/crisxuan/bestJavaer/blob/master/assembly/assembly01.md)
+- [寄存器入门第一篇](https://github.com/crisxuan/bestJavaer/blob/master/assembly/assembly02.md)
+
+
+
+#面试
+
+- [iOS 内存管理机制](https://juejin.cn/post/6956144382906990623)  **内存方面总结的很全面，内容很多，准备面试的同学可以抽时间看看。**
+
+
+
+
 
 # 算法篇
 [C++算法讲解](https://github.com/youngyangyang04/leetcode-master)
 
 
-# 端智能
+# 硬件&端智能
+[2020年Mac Mini的M1芯片测评](https://www.anandtech.com/show/16252/mac-mini-apple-m1-tested)
+
+![M1芯片](https://cdn.nlark.com/yuque/0/2021/png/1106678/1621222846596-baf87e93-da80-43f4-9884-93088858018c.png)
+
+
+
 [轻松玩转移动AI，一键集成的端智能框架Pitaya](https://mp.weixin.qq.com/s/XF2k9MGcbY_hqlLEjl0hhw)
 
 # 效率&工具
