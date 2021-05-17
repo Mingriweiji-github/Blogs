@@ -61,6 +61,8 @@
 
 
 # 硬件&端智能
+[如何看待苹果**M1**芯片跑分超过**i9**？](https://www.zhihu.com/question/429951450)
+
 [2020年Mac Mini的M1芯片测评](https://www.anandtech.com/show/16252/mac-mini-apple-m1-tested)
 
 ![M1芯片](https://cdn.nlark.com/yuque/0/2021/png/1106678/1621222846596-baf87e93-da80-43f4-9884-93088858018c.png)
