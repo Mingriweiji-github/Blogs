@@ -38,8 +38,16 @@
 [SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
 [Swift5.4发布](https://mp.weixin.qq.com/s/CKx-UhzBkhDMDvDbzjX09g)
 
+[《iOS 渲染原理解析》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
+[《模糊的 Any 和 Optional》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322223&idx=1&sn=1284b3e2f9d6babd925302cd82a24ff9&chksm=870e0a36b0798320e01eea0aba143f680a7b39a449232327354bc0d1af9c21db1759ce8ed2df&scene=21#wechat_redirect)
+[《Swift 5 之后 "Method Swizzling"？》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458321680&idx=1&sn=26af231a91a9f43f7779cde2a6b64c4a&chksm=870e0c09b079851f65e4e192972e0ea9371a7a1ce9b5e8fc820e223d02a60dd58532559fcf38&scene=21#wechat_redirect)
 
 # App优化
+
+[《抖音研发实践：基于二进制文件重排的解决方案 APP启动速度提升超15%》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
+
+[【译】你可能不知道的iOS性能优化建议（来自前Apple工程师） -- 来自掘金：RoyCao](https://juejin.cn/post/6844904067878092808)
+
 [抖音品质建设-iOS 启动优化《原理篇》](https://mp.weixin.qq.com/s/3-Sbqe9gxdV6eI1f435BDg)
 
 [抖音 iOS 启动优化实战](https://www.infoq.cn/article/tx0tcv9h6lkvknokqn7i)
