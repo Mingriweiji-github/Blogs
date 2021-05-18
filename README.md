@@ -1,3 +1,51 @@
+# Swift官方
+[Apple官方book](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+# Swift翻译组
+[SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
+[Swift5.4发布](https://mp.weixin.qq.com/s/CKx-UhzBkhDMDvDbzjX09g)
+
+[《iOS 渲染原理解析》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
+[《模糊的 Any 和 Optional》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322223&idx=1&sn=1284b3e2f9d6babd925302cd82a24ff9&chksm=870e0a36b0798320e01eea0aba143f680a7b39a449232327354bc0d1af9c21db1759ce8ed2df&scene=21#wechat_redirect)
+[《Swift 5 之后 "Method Swizzling"？》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458321680&idx=1&sn=26af231a91a9f43f7779cde2a6b64c4a&chksm=870e0c09b079851f65e4e192972e0ea9371a7a1ce9b5e8fc820e223d02a60dd58532559fcf38&scene=21#wechat_redirect)
+# Swift 开源和工具
+
+[ChartView made in SwiftUI](https://github.com/AppPear/ChartView)
+
+
+
+# Flutter开源
+
+ [gittee:flutter_readhub](https://gitee.com/AriesHoo/flutter_readhub)
+
+[github: flutter_readhub](https://github.com/AriesHoo/flutter_readhub)
+
+
+
+# Flutter原理 & 实践
+
+解读 Flutter 中热重载原理：https://mp.weixin.qq.com/s/Rd03kZLr26AJGcW2RXZc3w
+
+[美团外卖Flutter动态化实践](https://mp.weixin.qq.com/s/wjEvtvexYytzSy5RwqGQyw)
+
+[Flutter Web在美团外卖的实践](https://mp.weixin.qq.com/s/GjFC5_85pIk9EbKPJXZsXg)
+
+[Flutter包大小治理上的探索与实践](https://mp.weixin.qq.com/s/adC-YUWd-xuUlzeAPHzJoQ)
+
+[外卖客户端容器化架构的演进](https://mp.weixin.qq.com/s/kW5wu7GM7pMRRvN-dQvE2g)
+
+[让 Flutter 在鸿蒙系统上跑起来](https://mp.weixin.qq.com/s/vTWZRaxvsOS_VRjfh6l4FQ)
+
+[携程火车票 Flutter 最佳实践](https://mp.weixin.qq.com/s/VP6WEQkEel3W4tdo3ThYDw)
+
+[字节跳动为什么选用Flutter：并非跨平台终极之选，但它可能是不一样的未来](https://mp.weixin.qq.com/s/OlSEpK-KKfpypwQFnJ4kfQ)
+
+[西瓜视频UME - 丰富的Flutter调试工具](https://mp.weixin.qq.com/s/9GjXB9Eu-OP3fIjdQWKklg)
+
+
+
+
+
+
 # [计算机硬件和网络](https://github.com/crisxuan/bestJavaer)
 ## 操作系统系列
 
@@ -75,37 +123,8 @@
 [一款可让大型iOS工程编译速度提升50%的工具](https://mp.weixin.qq.com/s/uBpkelG8q_xmskWPYyWONA)
 
 
-# Flutter原理
-解读 Flutter 中热重载原理：https://mp.weixin.qq.com/s/Rd03kZLr26AJGcW2RXZc3w
 
 
-# Flutter实践
-[美团外卖Flutter动态化实践](https://mp.weixin.qq.com/s/wjEvtvexYytzSy5RwqGQyw)
-
-[Flutter Web在美团外卖的实践](https://mp.weixin.qq.com/s/GjFC5_85pIk9EbKPJXZsXg)
-
-[Flutter包大小治理上的探索与实践](https://mp.weixin.qq.com/s/adC-YUWd-xuUlzeAPHzJoQ)
-
-[外卖客户端容器化架构的演进](https://mp.weixin.qq.com/s/kW5wu7GM7pMRRvN-dQvE2g)
-
-[让 Flutter 在鸿蒙系统上跑起来](https://mp.weixin.qq.com/s/vTWZRaxvsOS_VRjfh6l4FQ)
-
-[携程火车票 Flutter 最佳实践](https://mp.weixin.qq.com/s/VP6WEQkEel3W4tdo3ThYDw)
-
-[字节跳动为什么选用Flutter：并非跨平台终极之选，但它可能是不一样的未来](https://mp.weixin.qq.com/s/OlSEpK-KKfpypwQFnJ4kfQ)
-
-[西瓜视频UME - 丰富的Flutter调试工具](https://mp.weixin.qq.com/s/9GjXB9Eu-OP3fIjdQWKklg)
-
-
-# Swift
-[Apple官方book](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-# Swift翻译组
-[SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
-[Swift5.4发布](https://mp.weixin.qq.com/s/CKx-UhzBkhDMDvDbzjX09g)
-
-[《iOS 渲染原理解析》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
-[《模糊的 Any 和 Optional》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322223&idx=1&sn=1284b3e2f9d6babd925302cd82a24ff9&chksm=870e0a36b0798320e01eea0aba143f680a7b39a449232327354bc0d1af9c21db1759ce8ed2df&scene=21#wechat_redirect)
-[《Swift 5 之后 "Method Swizzling"？》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458321680&idx=1&sn=26af231a91a9f43f7779cde2a6b64c4a&chksm=870e0c09b079851f65e4e192972e0ea9371a7a1ce9b5e8fc820e223d02a60dd58532559fcf38&scene=21#wechat_redirect)
 
 # App优化
 
@@ -221,24 +240,21 @@
 
 [SDWebImage 图片下载缓存框架 常用方法及原理](http://www.jianshu.com/p/4191017c8b39)  
 
-[iOS数据库升级](http://www.jianshu.com/p/e1bd870b4ac2)   
+[iOS数据库升级](http://www.jianshu.com/p/e1bd870b4ac2)   
 
 第四节：Swift3.0
 [Swift3特性](http://www.jianshu.com/p/5d911fae5b2f)
 
-### 面试篇   
+### 面试篇   
 [iOS中级面试题](http://mrpeak.cn/ios/2016/01/07/push)  
 [iOS面试题练习(二)](https://larrycal.coding.me/2017/02/27/iOS面试题-二/)  
 [招聘一个靠谱的iOS](http://blog.sunnyxx.com/2015/07/04/ios-interview/)     
 [招聘一个靠谱的iOS参考答案（上）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（上）.md)    
-[招聘一个靠谱的iOS参考答案（下）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（下）.md)                    
+[招聘一个靠谱的iOS参考答案（下）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（下）.md)                    
 
 ### 突破性思维
 [刻意练习](https://book.douban.com/subject/26895993/)       
 
-[拆掉思维里的墙](https://www.amazon.cn/拆掉思维里的墙-原来我还可以这样活-古典/dp/B009P4OW6U/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1503646401&sr=1-2&keywords=拆掉思维里的墙)    
+[拆掉思维里的墙](https://www.amazon.cn/拆掉思维里的墙-原来我还可以这样活-古典/dp/B009P4OW6U/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1503646401&sr=1-2&keywords=拆掉思维里的墙)    
 
 [你的生命有什么可能](https://www.amazon.cn/你的生命有什么可能-古典/dp/B00SIOKLMM/ref=pd_sim_351_3?ie=UTF8&psc=1&refRID=2X0YEEB59NM2X633X420)
-
-
-
