@@ -1,29 +1,137 @@
+# Swift官方
+[Apple官方book](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+# Swift翻译组
+[SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
+[Swift5.4发布](https://mp.weixin.qq.com/s/CKx-UhzBkhDMDvDbzjX09g)
+
+[《iOS 渲染原理解析》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
+[《模糊的 Any 和 Optional》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322223&idx=1&sn=1284b3e2f9d6babd925302cd82a24ff9&chksm=870e0a36b0798320e01eea0aba143f680a7b39a449232327354bc0d1af9c21db1759ce8ed2df&scene=21#wechat_redirect)
+[《Swift 5 之后 "Method Swizzling"？》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458321680&idx=1&sn=26af231a91a9f43f7779cde2a6b64c4a&chksm=870e0c09b079851f65e4e192972e0ea9371a7a1ce9b5e8fc820e223d02a60dd58532559fcf38&scene=21#wechat_redirect)
+# Swift 开源和工具
+
+[ChartView made in SwiftUI](https://github.com/AppPear/ChartView)
+
+
+
+# Flutter开源
+
+ [gittee:flutter_readhub](https://gitee.com/AriesHoo/flutter_readhub)
+
+[github: flutter_readhub](https://github.com/AriesHoo/flutter_readhub)
+
+
+
+# Flutter原理 & 实践
+
+解读 Flutter 中热重载原理：https://mp.weixin.qq.com/s/Rd03kZLr26AJGcW2RXZc3w
+
+[美团外卖Flutter动态化实践](https://mp.weixin.qq.com/s/wjEvtvexYytzSy5RwqGQyw)
+
+[Flutter Web在美团外卖的实践](https://mp.weixin.qq.com/s/GjFC5_85pIk9EbKPJXZsXg)
+
+[Flutter包大小治理上的探索与实践](https://mp.weixin.qq.com/s/adC-YUWd-xuUlzeAPHzJoQ)
+
+[外卖客户端容器化架构的演进](https://mp.weixin.qq.com/s/kW5wu7GM7pMRRvN-dQvE2g)
+
+[让 Flutter 在鸿蒙系统上跑起来](https://mp.weixin.qq.com/s/vTWZRaxvsOS_VRjfh6l4FQ)
+
+[携程火车票 Flutter 最佳实践](https://mp.weixin.qq.com/s/VP6WEQkEel3W4tdo3ThYDw)
+
+[字节跳动为什么选用Flutter：并非跨平台终极之选，但它可能是不一样的未来](https://mp.weixin.qq.com/s/OlSEpK-KKfpypwQFnJ4kfQ)
+
+[西瓜视频UME - 丰富的Flutter调试工具](https://mp.weixin.qq.com/s/9GjXB9Eu-OP3fIjdQWKklg)
+
+
+
+
+
+
+# [计算机硬件和网络](https://github.com/crisxuan/bestJavaer)
+## 操作系统系列
+
+- [硬核操作系统入门](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-overview.md)
+- [硬核操作系统之进程和线程](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-processandthread.md)
+- [硬核操作系统之内存管理](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-rammanage.md)
+- [硬核操作系统之文件系统](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-filesystem.md)
+- [硬核操作系统之输入输出](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-inputoutput.md)
+- [硬核操作系统之死锁](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-deadlock.md)
+- [操作系统核心概念](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-importantconcept.md)
+- [操作系统网站推荐](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-recommand.md)
+- [操作系统硬核回答](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-howtolearn.md)
+- [计算机基础常识](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/computer-youshouldknow.md)
+- [操作系统超全面试题](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-interview-second.md)
+
+## 计算机入门系列
+
+- [程序员需要了解的硬核知识之 CPU](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-cpu.md)
+- [程序员需要了解的硬核知识之内存](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-ram.md)
+- [程序员需要了解的硬核知识之二进制](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-binary.md)
+- [程序员需要了解的硬核知识之磁盘](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-disk.md)
+- [程序员需要了解的硬核知识之压缩算法](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-compression.md)
+- [程序员需要了解的硬核知识之操作系统和应用](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-osandapp.md)
+- [程序员需要了解的硬核知识之操作系统入门](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-os.md)
+- [程序员需要了解的硬核知识之控制硬件](https://github.com/crisxuan/bestJavaer/blob/master/computer-basic/computer-disk.md)
+
+## 计算机网络系列
+
+- [计算机网络基础入门](https://github.com/crisxuan/bestJavaer/blob/master/network/network-basic.md)
+- [你不得不知的计算机网络](https://github.com/crisxuan/bestJavaer/blob/master/network/network-center.md)
+- [计算机网络应用层](https://github.com/crisxuan/bestJavaer/blob/master/network/network-appLevel.md)
+- [计算机网络基础知识](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-network-basic.md)
+- [TCP/IP 基础知识](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-network-tcpip.md)
+- [计算机网络应用层协议](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-application.md)
+- [计算机网络传输层](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-translayer.md)
+- [计算机网络网络层](https://github.com/crisxuan/bestJavaer/blob/master/network/computer-internet.md)
+- [一文了解 ARP 协议](https://github.com/crisxuan/bestJavaer/blob/master/network/network-arp.md)
+- [一文了解 DNS 协议](https://github.com/crisxuan/bestJavaer/blob/master/network/network-dns.md)
+- [一文了解 ICMP 协议](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/network-icmp.md)
+- [一文了解 DHCP 协议](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/network-dhcp.md)
+- [计算机网络数据链路层](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/network-datalink.md)
+- [Web 页面的请求流程，超详细](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/web-request.md)
+
+## 汇编语言
+
+- [从指令集的角度看汇编](https://github.com/crisxuan/bestJavaer/blob/master/assembly/assembly01.md)
+- [寄存器入门第一篇](https://github.com/crisxuan/bestJavaer/blob/master/assembly/assembly02.md)
+
+
+
+# 面试
+
+- [iOS 内存管理机制](https://juejin.cn/post/6956144382906990623)  **内存方面总结的很全面，内容很多，准备面试的同学可以抽时间看看。**
+
+
+
+
 
 # 算法篇
 [C++算法讲解](https://github.com/youngyangyang04/leetcode-master)
 
 
-# 端智能
+# 硬件&端智能
+[如何看待苹果**M1**芯片跑分超过**i9**？](https://www.zhihu.com/question/429951450)
+
+[2020年Mac Mini的M1芯片测评](https://www.anandtech.com/show/16252/mac-mini-apple-m1-tested)
+
+![M1芯片](https://cdn.nlark.com/yuque/0/2021/png/1106678/1621222846596-baf87e93-da80-43f4-9884-93088858018c.png)
+
+
+
 [轻松玩转移动AI，一键集成的端智能框架Pitaya](https://mp.weixin.qq.com/s/XF2k9MGcbY_hqlLEjl0hhw)
 
 # 效率&工具
 [一款可让大型iOS工程编译速度提升50%的工具](https://mp.weixin.qq.com/s/uBpkelG8q_xmskWPYyWONA)
 
 
-# Flutter
-[字节跳动为什么选用Flutter：并非跨平台终极之选，但它可能是不一样的未来](https://mp.weixin.qq.com/s/OlSEpK-KKfpypwQFnJ4kfQ)
-[西瓜视频UME - 丰富的Flutter调试工具](https://mp.weixin.qq.com/s/9GjXB9Eu-OP3fIjdQWKklg)
-[美团外卖Flutter动态化实践](https://mp.weixin.qq.com/s/wjEvtvexYytzSy5RwqGQyw)
-[Flutter包大小治理上的探索与实践](https://mp.weixin.qq.com/s/adC-YUWd-xuUlzeAPHzJoQ)
-[外卖客户端容器化架构的演进](https://mp.weixin.qq.com/s/kW5wu7GM7pMRRvN-dQvE2g)
-[让 Flutter 在鸿蒙系统上跑起来](https://mp.weixin.qq.com/s/vTWZRaxvsOS_VRjfh6l4FQ)
-[Flutter Web在美团外卖的实践](https://mp.weixin.qq.com/s/GjFC5_85pIk9EbKPJXZsXg)
 
-# Swift
-[SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
 
 
 # App优化
+
+[《抖音研发实践：基于二进制文件重排的解决方案 APP启动速度提升超15%》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
+
+[【译】你可能不知道的iOS性能优化建议（来自前Apple工程师） -- 来自掘金：RoyCao](https://juejin.cn/post/6844904067878092808)
+
 [抖音品质建设-iOS 启动优化《原理篇》](https://mp.weixin.qq.com/s/3-Sbqe9gxdV6eI1f435BDg)
 
 [抖音 iOS 启动优化实战](https://www.infoq.cn/article/tx0tcv9h6lkvknokqn7i)
@@ -132,24 +240,21 @@
 
 [SDWebImage 图片下载缓存框架 常用方法及原理](http://www.jianshu.com/p/4191017c8b39)  
 
-[iOS数据库升级](http://www.jianshu.com/p/e1bd870b4ac2)   
+[iOS数据库升级](http://www.jianshu.com/p/e1bd870b4ac2)   
 
 第四节：Swift3.0
 [Swift3特性](http://www.jianshu.com/p/5d911fae5b2f)
 
-### 面试篇   
+### 面试篇   
 [iOS中级面试题](http://mrpeak.cn/ios/2016/01/07/push)  
 [iOS面试题练习(二)](https://larrycal.coding.me/2017/02/27/iOS面试题-二/)  
 [招聘一个靠谱的iOS](http://blog.sunnyxx.com/2015/07/04/ios-interview/)     
 [招聘一个靠谱的iOS参考答案（上）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（上）.md)    
-[招聘一个靠谱的iOS参考答案（下）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（下）.md)                    
+[招聘一个靠谱的iOS参考答案（下）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（下）.md)                    
 
 ### 突破性思维
 [刻意练习](https://book.douban.com/subject/26895993/)       
 
-[拆掉思维里的墙](https://www.amazon.cn/拆掉思维里的墙-原来我还可以这样活-古典/dp/B009P4OW6U/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1503646401&sr=1-2&keywords=拆掉思维里的墙)    
+[拆掉思维里的墙](https://www.amazon.cn/拆掉思维里的墙-原来我还可以这样活-古典/dp/B009P4OW6U/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1503646401&sr=1-2&keywords=拆掉思维里的墙)    
 
 [你的生命有什么可能](https://www.amazon.cn/你的生命有什么可能-古典/dp/B00SIOKLMM/ref=pd_sim_351_3?ie=UTF8&psc=1&refRID=2X0YEEB59NM2X633X420)
-
-
-
