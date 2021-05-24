@@ -1,0 +1,29 @@
+
+/* 指定CSS编码 utf-8 */
+@charset "utf-8";
+
+/* @import url(./base.css); */
+
+
+/* 选择器 {
+    属性名：属性值
+} */
+h1 {
+    font-size: 100px;
+}
+p {
+    font-size: 50px;
+}
+/* 并集选择器 */
+h1, p, a {
+    color: red;
+}
+/* 类选择器 */
+.red {
+    color: red;
+}
+div {
+    font-size: 30px;
+    color: blue;
+    background-color: red;
+}
