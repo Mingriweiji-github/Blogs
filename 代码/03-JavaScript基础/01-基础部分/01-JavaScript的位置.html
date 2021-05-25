@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript的位置</title>
+
+</head>
+<body>
+    <!-- 1、直接放在body中-不推荐 -->
+    <a href="" onclick="alert('我是弹窗1')">我是弹窗1</a>
+    <a href="javascript:alert('我是弹窗2')">我是弹窗2</a>
+
+    <!-- 2、放到script标签中 -->
+    <script>
+        alert('我是直接弹出');
+    </script>
+
+    <!-- 3、真实开发使用外部引入 -->
+    <script src="./js/Test.js"></script>
+
+    
+</body>
+</html>
