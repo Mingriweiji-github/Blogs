@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>笑话生成器</title>
+    <style>
+        .sureButtonBox {
+            border: 1px;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <strong>请输入自定义名字</strong>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <strong>公制</strong>
+        <img src="" alt="icon">
+        <strong>美制</strong>
+        <img src="" alt="icon">
+    </div>
+    <br>
+    <div class="sureButtonBox">
+        <button>随机生成笑话</button>
+    </div>
+
+    <script>
+        const para = document.querySelector('button');
+        para.addEventListener('click', onClick);
+        function onClick() {
+            let jokers = ["笑话1", "笑话2", "笑话3", "笑话4", "笑话5", "笑话6"];
+            // 随机joker
+            let joker = jokers[Math.floor(Math.random() * jokers.length)];
+            alert("讲个笑话：" + joker);
+        }
+    </script>
+
+</body>
+</html>

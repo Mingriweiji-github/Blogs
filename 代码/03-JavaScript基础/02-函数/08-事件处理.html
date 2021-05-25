@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Channge color</button>
+
+    <script>
+        const btn = document.querySelector('button');
+
+        function random(number) {
+            return Math.floor(Math.random() * (number + 1));
+        }
+        // 事件处理器
+        // btn.onclick = function() {
+        //     const color = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        //     document.body.style.backgroundColor = color;
+        // }
+
+        // 注意：使用onclick给一个监听器添加多个处理器只有最后一个会正常工作
+        // myElement.onclick = functionA;
+        // myElement.onclick = functionB;
+        
+        // 使用addEventListener：click
+        btn.addEventListener('click', function () {
+            const color = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+            document.body.style.backgroundColor = color;
+        })
+        //  注意：addEventListener可以添加多个处理器，当元素被点击时，两个函数都会工作;
+        // myElement.addEventListener('click', functionA);
+        // myElement.addEventListener('click', functionB);
+        
+
+    </script>
+
+</body>
+</html>
