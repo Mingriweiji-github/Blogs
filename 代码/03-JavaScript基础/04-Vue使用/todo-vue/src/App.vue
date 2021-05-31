@@ -11,13 +11,13 @@
 
       </div>
       <div id="card">
-        <label id="cardTitle" for="智慧服务"></label>
-        <img id="ball" src="./assets/logo.png" alt="Vue logo">
+        <label id="card_tip" for="智慧服务"></label>
+        <img id="card_img" src="./assets/logo.png" alt="Vue logo">
 
-        <div class="card_header_container">
-          <div class="header_title">重大事故1</div>
-          <div class="header_title">重大事故2</div>
-          <div class="header_title">重大事故3</div>
+        <div class="card_container">
+          <div class="card_title">重大事故1</div>
+          <div class="card_title">重大事故2</div>
+          <div class="card_title">重大事故3</div>
         </div>
       </div>
 
@@ -78,32 +78,32 @@ export default {
   width: 50px;
   
 }
-#cardTitle {
+#card_tip {
   top: 15px;
   background: orange;
   height: 21px;
   width: 100px;
   float: left;
 }
-#card_header_container {
+#card_container {
   height: 20px;
   max-width: 100%;
   display: flex;
 }
-#header_title {
+#card_title {
   background: red;
   flex: 1;
   height: 20px;
 }
 
-.card_header_container .header_title:nth-of-type(1) {
+.card_container .card_title:nth-of-type(1) {
   padding-right: 10px;
 }
-.card_header_container .header_title:nth-of-type(2) {
+.card_container .card_title:nth-of-type(2) {
   padding-left: 10px;
   padding-right: 10px;
 }
-.card_header_container .header_title:nth-of-type(3) {
+.card_container .card_title:nth-of-type(3) {
   padding-left: 10px;
 }
 
