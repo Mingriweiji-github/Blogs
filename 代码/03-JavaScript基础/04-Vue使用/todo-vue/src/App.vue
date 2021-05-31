@@ -15,9 +15,15 @@
         <img id="card_img" src="./assets/logo.png" alt="Vue logo">
 
         <div class="card_container">
-          <div class="card_title">重大事故1</div>
-          <div class="card_title">重大事故2</div>
-          <div class="card_title">重大事故3</div>
+          <div class="card_item">
+            <div class="card_item_content">重大事故1</div>
+          </div>
+          <div class="card_item">
+            <div class="card_item_content">重大事故2</div>
+          </div>
+          <div class="card_item">
+            <div class="card_item_content">重大事故3</div>
+          </div>
         </div>
       </div>
 
@@ -72,11 +78,11 @@ export default {
   position: relative;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2.5rem 5rem 0 rgba(0, 0, 0, 0.1);
 }
-#ball {
+#card_img {
   top: 15px;
   height: 50px;
   width: 50px;
-  
+  align-content: center;
 }
 #card_tip {
   top: 15px;
@@ -85,26 +91,30 @@ export default {
   width: 100px;
   float: left;
 }
+
 #card_container {
-  height: 20px;
-  max-width: 100%;
-  display: flex;
+  box-shadow: 0 0 1px #ccc;
+  overflow: auto;
+  height: 100px;
 }
-#card_title {
-  background: red;
-  flex: 1;
-  height: 20px;
+#card_item {
+  flex: 1
+}
+#card_item_content {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
 }
 
-.card_container .card_title:nth-of-type(1) {
+/* .card_container .card_item:nth-of-type(1) {
   padding-right: 10px;
 }
-.card_container .card_title:nth-of-type(2) {
+.card_container .card_item:nth-of-type(2) {
   padding-left: 10px;
   padding-right: 10px;
 }
-.card_container .card_title:nth-of-type(3) {
+.card_container .card_item:nth-of-type(3) {
   padding-left: 10px;
-}
+} */
 
 </style>
