@@ -1,23 +1,32 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png">  -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <h1>Todo List</h1>
-       <li>
-        <to-do-item label="My Todo Item" :done="true"> </to-do-item>
-      </li>
+      <ul>
+        <li v-for="item in ToDoItems" :key="item.id">
+          <to-do-item :label="item.label" :done="item.done"> </to-do-item>
+        </li>
+      </ul>
+
   </div>
 </template>
 
 <script>
-// import { component } from 'vue/types/umd';
-// import HelloWorld from './components/HelloWorld.vue'
 import ToDoItem from "./components/ToDoItem.vue";
-
+import uniqueId from "lodash.uniqueid";
 export default {
-  name: 'App',
+  name: 'app',
   components: {
     ToDoItem
+  },
+  data() {
+    return {
+      ToDoItems: [
+        { id: uniqueId("todo-"), label: "Learn Vue", done: false },
+        { id: uniqueId("todo-"), label: "Create a Vue Project with CLI", done: true },
+        { id: uniqueId("todo-"), label: "Have Fun", done: true },
+        { id: uniqueId("todo-"), label: "Create a todo List", done: false },
+        { id: uniqueId("todo-"), label: "Time:2021-05-31 14:58:09", done: true }
+      ]
+    };
   }
 }
 </script>
