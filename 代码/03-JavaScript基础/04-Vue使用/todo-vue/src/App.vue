@@ -36,6 +36,27 @@
         </div>
       </div>
 
+      <div class="list_title">收入排名</div>
+      <!-- 单列表 -->
+      <div class="list_row">
+          <div class="list_row_card">
+            <div class="list_row_container">
+              <div class="list_row_first">
+                    <div class="list_row_first_start">01. 北京地区</div>
+                    <div class="list_row_first_end">
+                        <div class="list_row_first_end_first">88.5</div>
+                        <div class="list_row_first_end_second">%</div>
+                    </div>
+              </div>
+              <div class="list_row_second">
+                    <div class="list_row_second_item">腾讯1</div>
+                    <div class="list_row_second_item list_row_second_item2">头条2</div>
+                    <div class="list_row_second_item">阿里3</div>
+              </div>
+            </div>
+          </div>
+      </div>
+
     </div>
   
 </template>
@@ -114,7 +135,7 @@ export default {
   width: calc(100% / 3);
   background-color: rebeccapurple;
 }
-/* CSS三等分 & 两排row */
+/* CSS三等分-两排row */
 .card_item {
   display: inline-flex;
   flex-direction: columns;
@@ -134,6 +155,81 @@ export default {
 .card_second_row {
   color: #B9DAFF;
   font-size: 12px;
+}
+
+/* List title */
+.list_title {
+  float: left;
+  margin-left: 18px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  color:#333333;
+}
+/* List */
+.list_row {
+  float: left;
+  width: 100%;
+}
+.list_row_card {
+  background: #f5f7fc;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.list_row_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: purple;
+}
+.list_row_first {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list_row_second {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* row */
+.list_row_first_start {
+  color: #333333;
+  font-size: 16px;
+}
+.list_row_first_end {
+  display: inline-flex;
+  flex-direction: columns;
+  align-items: flex-end;
+  justify-content: center;
+}
+/* row first */
+.list_row_first_end_first {
+  color: #333333;
+  font-size: 19px;
+}
+/* row second */
+.list_row_first_end_second {
+  margin-right: 25px;
+  margin-left: 6px;
+  color: #666666;
+  font-size: 16px;
+}
+
+/* column */
+.list_row_second_item {
+  color: #999999;
+  font-size: 12px;
+}
+.list_row_second_item2 {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 </style>
