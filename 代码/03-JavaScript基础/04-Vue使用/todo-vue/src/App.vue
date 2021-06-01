@@ -7,23 +7,14 @@
           <to-do-item :label="item.label" :done="item.done"> </to-do-item>
         </li>
       </ul> -->
-      <div class="blank">
 
-      </div>
       <div id="card">
-        <label id="card_tip" for="智慧服务"></label>
-        <img id="card_img" src="./assets/logo.png" alt="Vue logo">
-
-        <div class="card_container">
-          <div class="card_item">
-            <div class="card_item_content">重大事故1</div>
-          </div>
-          <div class="card_item">
-            <div class="card_item_content">重大事故2</div>
-          </div>
-          <div class="card_item">
-            <div class="card_item_content">重大事故3</div>
-          </div>
+          <!-- <label for="智慧服务" id="card_tip"></label> -->
+          <img class="card_image" src="./assets/logo.png" alt="Vue logo">
+          <div class="card_container">
+            <div class="card_item">重大事故1</div>
+            <div class="card_item">重大事故2</div>
+            <div class="card_item">重大事故3</div>
         </div>
       </div>
 
@@ -78,11 +69,14 @@ export default {
   position: relative;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2.5rem 5rem 0 rgba(0, 0, 0, 0.1);
 }
-#card_img {
-  top: 15px;
-  height: 50px;
-  width: 50px;
-  align-content: center;
+.card_image {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 90px;
+  width: 90px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 #card_tip {
   top: 15px;
@@ -91,30 +85,16 @@ export default {
   width: 100px;
   float: left;
 }
-
-#card_container {
-  box-shadow: 0 0 1px #ccc;
-  overflow: auto;
-  height: 100px;
-}
-#card_item {
-  flex: 1
-}
-#card_item_content {
-  display: flex;
-  flex-direction: row;
-  width: 100px;
+/* CSS三等分方式一 width: calc(100% / 3) */
+.card_container {
+  display: column;
+  width: 100%;
 }
 
-/* .card_container .card_item:nth-of-type(1) {
-  padding-right: 10px;
+.card_item {
+  float: left;
+  width: calc(100% / 3);
+  align-content: center;
+  background-color: aquamarine;
 }
-.card_container .card_item:nth-of-type(2) {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.card_container .card_item:nth-of-type(3) {
-  padding-left: 10px;
-} */
-
 </style>
