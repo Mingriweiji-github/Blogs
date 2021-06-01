@@ -12,9 +12,27 @@
           <!-- <label for="智慧服务" id="card_tip"></label> -->
           <img class="card_image" src="./assets/logo.png" alt="Vue logo">
           <div class="card_container">
-            <div class="card_item">重大事故1</div>
-            <div class="card_item">重大事故2</div>
-            <div class="card_item">重大事故3</div>
+            <div>
+              <div class="card_item_row">
+                <div class="card_item card_item_row_first">Vue</div>
+                <div class="card_item card_item_row_second">1.0</div>
+              </div>
+              <div class="card_item_row">
+                <div class="card_item card_item_row_first">Vue</div>
+                <div class="card_item card_item_row_second">2.0</div>
+              </div>
+              <div class="card_item_row">
+                <div class="card_item card_item_row_first">Vue</div>
+                <div class="card_item card_item_row_second">3.0</div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card_item_row card_second_row">2014-02</div>
+              <div class="card_item_row card_second_row">2016-10</div>
+              <div class="card_item_row card_second_row">2020-09</div>
+            </div>
+
         </div>
       </div>
 
@@ -91,10 +109,30 @@ export default {
   width: 100%;
 }
 
-.card_item {
+.card_item_row {
   float: left;
   width: calc(100% / 3);
-  align-content: center;
-  background-color: aquamarine;
+  background-color: rebeccapurple;
 }
+.card_item {
+  display: inline-flex;
+  flex-direction: columns;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.card_second_row {
+  color: #B9DAFF;
+}
+
+.card_item_row_first {
+  color: white;
+  font-size: 19px;
+}
+.card_item_row_second {
+  color: #B9DAFF;
+  font-size: 12px;
+}
+
+
 </style>
