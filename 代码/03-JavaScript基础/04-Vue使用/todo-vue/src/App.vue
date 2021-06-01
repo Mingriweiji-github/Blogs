@@ -114,6 +114,7 @@ export default {
   width: calc(100% / 3);
   background-color: rebeccapurple;
 }
+/* CSS三等分 & 两排row */
 .card_item {
   display: inline-flex;
   flex-direction: columns;
@@ -121,18 +122,18 @@ export default {
   justify-content: center;
 }
 
-.card_second_row {
-  color: #B9DAFF;
-}
-
 .card_item_row_first {
   color: white;
   font-size: 19px;
 }
 .card_item_row_second {
-  color: #B9DAFF;
+  color: white;
   font-size: 12px;
 }
 
+.card_second_row {
+  color: #B9DAFF;
+  font-size: 12px;
+}
 
 </style>
