@@ -8,9 +8,16 @@
         </li>
       </ul> -->
 
-      <div id="card">
+      <div id="card"> 
           <!-- <label for="智慧服务" id="card_tip"></label> -->
-          <img class="card_image" src="./assets/logo.png" alt="Vue logo">
+          <div class="card_image_container">
+              <img class="card_image" src="./assets/logo.png" alt="Vue logo">
+              <div class="card_image_content">
+                <div>2021</div>
+                <div>Vue排名</div>
+              </div>
+          </div>
+          
           <div class="card_container">
             <div>
               <div class="card_item_row">
@@ -108,15 +115,7 @@ export default {
   position: relative;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2.5rem 5rem 0 rgba(0, 0, 0, 0.1);
 }
-.card_image {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  height: 90px;
-  width: 90px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
+
 #card_tip {
   top: 15px;
   background: orange;
@@ -231,5 +230,24 @@ export default {
   margin-left: 20px;
   margin-right: 20px;
 }
-
+ /* 图片容器 */
+.card_image_container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+/* 图片 */
+.card_image {
+  height: 90px;
+  width: 90px;
+}
+/* 图片内容 */
+.card_image_content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+}
 </style>
