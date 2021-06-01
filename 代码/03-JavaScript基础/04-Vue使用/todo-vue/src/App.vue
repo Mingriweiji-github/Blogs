@@ -9,7 +9,6 @@
       </ul> -->
 
       <div id="card"> 
-          <!-- <label for="智慧服务" id="card_tip"></label> -->
           <div class="card_image_container">
               <img class="card_image" src="./assets/logo.png" alt="Vue logo">
               <div class="card_image_content">
@@ -17,7 +16,7 @@
                 <div>Vue排名</div>
               </div>
           </div>
-          
+
           <div class="card_container">
             <div>
               <div class="card_item_row">
