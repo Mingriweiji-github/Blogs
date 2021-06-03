@@ -1,7 +1,7 @@
 # 技术人经验
 [普通技术人的成长路径 \- 一位客户端老兵的经验之谈](https://mp.weixin.qq.com/s?__biz=MzI2NTAxMzg2MA==&mid=2247490197&idx=1&sn=4afa9770f9913f3688f33ee5026ac9e3&scene=21#wechat_redirect)
 
-![](https://raw.githubusercontent.com/Mingriweiji-github/ImageBed/master/img/20210603111618.png)
+<img src=https://raw.githubusercontent.com/Mingriweiji-github/ImageBed/master/img/20210603111618.png width=5%>
 
 [\[续\]普通技术人的成长路径 —— 十年职业总结](https://mp.weixin.qq.com/s/a3GnJc46DXiQoNePa2znjw)
 
