@@ -5,19 +5,10 @@
 
 [\[续\]普通技术人的成长路径 —— 十年职业总结](https://mp.weixin.qq.com/s/a3GnJc46DXiQoNePa2znjw)
 
-# Swift官方
-[Apple官方book](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-# Swift翻译组
-[SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
-[Swift5.4发布](https://mp.weixin.qq.com/s/CKx-UhzBkhDMDvDbzjX09g)
 
-[《iOS 渲染原理解析》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
-[《模糊的 Any 和 Optional》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322223&idx=1&sn=1284b3e2f9d6babd925302cd82a24ff9&chksm=870e0a36b0798320e01eea0aba143f680a7b39a449232327354bc0d1af9c21db1759ce8ed2df&scene=21#wechat_redirect)
-[《Swift 5 之后 "Method Swizzling"？》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458321680&idx=1&sn=26af231a91a9f43f7779cde2a6b64c4a&chksm=870e0c09b079851f65e4e192972e0ea9371a7a1ce9b5e8fc820e223d02a60dd58532559fcf38&scene=21#wechat_redirect)
-# Swift 开源和工具
-
-[ChartView made in SwiftUI](https://github.com/AppPear/ChartView)
-
+# Flutter原理 
+解读 Flutter 中热重载原理：https://mp.weixin.qq.com/s/Rd03kZLr26AJGcW2RXZc3w
+[Dart VM 的相关简介与运行模式解析](https://mp.weixin.qq.com/s/qVAJ6RHfCKBzYhxNUMPXqw)
 
 
 # Flutter开源
@@ -26,11 +17,8 @@
 
 [github: flutter_readhub](https://github.com/AriesHoo/flutter_readhub)
 
+# Flutter实践
 
-
-# Flutter原理 & 实践
-
-解读 Flutter 中热重载原理：https://mp.weixin.qq.com/s/Rd03kZLr26AJGcW2RXZc3w
 
 [美团外卖Flutter动态化实践](https://mp.weixin.qq.com/s/wjEvtvexYytzSy5RwqGQyw)
 
@@ -51,6 +39,18 @@
 
 
 
+# Swift官方
+[Apple官方book](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+# Swift翻译组
+[SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
+[Swift5.4发布](https://mp.weixin.qq.com/s/CKx-UhzBkhDMDvDbzjX09g)
+
+[《iOS 渲染原理解析》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
+[《模糊的 Any 和 Optional》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322223&idx=1&sn=1284b3e2f9d6babd925302cd82a24ff9&chksm=870e0a36b0798320e01eea0aba143f680a7b39a449232327354bc0d1af9c21db1759ce8ed2df&scene=21#wechat_redirect)
+[《Swift 5 之后 "Method Swizzling"？》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458321680&idx=1&sn=26af231a91a9f43f7779cde2a6b64c4a&chksm=870e0c09b079851f65e4e192972e0ea9371a7a1ce9b5e8fc820e223d02a60dd58532559fcf38&scene=21#wechat_redirect)
+# Swift 开源和工具
+
+[ChartView made in SwiftUI](https://github.com/AppPear/ChartView)
 
 
 # [计算机硬件和网络](https://github.com/crisxuan/bestJavaer)
