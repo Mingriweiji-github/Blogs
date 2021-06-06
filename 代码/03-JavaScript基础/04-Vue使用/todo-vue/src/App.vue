@@ -1,252 +1,117 @@
 <template>
-  <div id="app">
-      <!-- <h1>My ToTo List</h1>
-      <to-do-form></to-do-form>
-      <ul>
-        <li v-for="item in ToDoItems" :key="item.id">
-          <to-do-item :label="item.label" :done="item.done"> </to-do-item>
-        </li>
-      </ul> -->
-
-      <div id="card"> 
-          <div class="card_image_container">
-              <img class="card_image" src="./assets/logo.png" alt="Vue logo">
-              <div class="card_image_content">
-                <div>2021</div>
-                <div>Vue排名</div>
-              </div>
-          </div>
-
-          <div class="card_container">
-            <div>
-              <div class="card_item_row">
-                <div class="card_item card_item_row_first">Vue</div>
-                <div class="card_item card_item_row_second">1.0</div>
-              </div>
-              <div class="card_item_row">
-                <div class="card_item card_item_row_first">Vue</div>
-                <div class="card_item card_item_row_second">2.0</div>
-              </div>
-              <div class="card_item_row">
-                <div class="card_item card_item_row_first">Vue</div>
-                <div class="card_item card_item_row_second">3.0</div>
-              </div>
-            </div>
-
-            <div>
-              <div class="card_item_row card_second_row">2014-02</div>
-              <div class="card_item_row card_second_row">2016-10</div>
-              <div class="card_item_row card_second_row">2020-09</div>
-            </div>
-
-        </div>
-      </div>
-
-      <div class="list_title">收入排名</div>
-      <!-- 单列表 -->
-      <div class="list_row">
-          <div class="list_row_card">
-            <div class="list_row_container">
-              <div class="list_row_first">
-                    <div class="list_row_first_start">01. 北京地区</div>
-                    <div class="list_row_first_end">
-                        <div class="list_row_first_end_first">88.5</div>
-                        <div class="list_row_first_end_second">%</div>
-                    </div>
-              </div>
-              <div class="list_row_second">
-                    <div class="list_row_second_item">腾讯1</div>
-                    <div class="list_row_second_item list_row_second_item2">头条2</div>
-                    <div class="list_row_second_item">阿里3</div>
-              </div>
-            </div>
-          </div>
-      </div>
-
+  <div class="huadong">
+    <div class="bt">
+      <nav>
+        <span @click="qh(index)"
+              v-for="(item,index) in list"
+              :class="{active:show==index+1}"
+              :key="index">
+          {{item}}
+        </span>
+      </nav>
+ 
     </div>
-  
+    <div class="nr"
+         v-if="index==0">
+      <p v-for="(item,index) in nr"
+         :key="index">{{item}}</p>
+    </div>
+    <div class="nr"
+         v-if="index==1">
+      <p v-for="(item,index) in nrs"
+         :key="index">{{item}}</p>
+    </div>
+    <div class="nr"
+         v-if="index==2">
+      <p v-for="(item,index) in nrs"
+         :key="index">{{item}}</p>
+    </div>
+    <div class="nr"
+         v-if="index==3">
+      <p v-for="(item,index) in nrs"
+         :key="index">{{item}}</p>
+    </div>
+    <div class="nr"
+         v-if="index==4">
+      <p v-for="(item,index) in nrs"
+         :key="index">{{item}}</p>
+    </div>
+    <div class="nr"
+         v-if="index==5">
+      <p v-for="(item,index) in nrs"
+         :key="index">{{item}}</p>
+    </div>
+    <div class="nr"
+         v-if="index==6">
+      <p v-for="(item,index) in nrs"
+         :key="index">{{item}}</p>
+    </div>
+    <div class="nr"
+         v-if="index==7">
+      <p v-for="(item,index) in nrs"
+         :key="index">{{item}}</p>
+    </div>
+  </div>
+ 
 </template>
-
 <script>
-import ToDoItem from "./components/ToDoItem.vue";
-import uniqueId from "lodash.uniqueid";
-import ToDoForm from "./components/ToDoForm.vue";
 export default {
-  name: 'app',
-  components: {
-    ToDoItem,
-    ToDoForm,
-  },
-  data() {
+  data () {
     return {
-      ToDoItems: [
-        { id: uniqueId("todo-"), label: "Learn Vue", done: false },
-        { id: uniqueId("todo-"), label: "Create a Vue Project with CLI", done: true },
-        { id: uniqueId("todo-"), label: "Have Fun", done: true },
-        { id: uniqueId("todo-"), label: "Create a todo List", done: false },
-        { id: uniqueId("todo-"), label: "Time:2021-05-31 14:58:09", done: true }
-      ]
-    };
-  }
+      index: 0,
+      show: 1,
+      list: ["热门", "推荐", "儿科", "内科", "妇科", "外科", "口腔科", "男科"],
+      nr: [1, 2, 3, 4, 5, 6, 7, 8],
+      nrs: [8, 7, 6, 5, 4, 3, 2, 1]
+    }
+  },
+  methods: {
+    qh: function (index) {
+      this.index = index;
+      console.log(this.index);
+      if (this.index == index) {
+        this.show = index + 1;
+      }
+    }
+  },
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+@function px1rem($px) {
+  $rem: 75px;
+  @return ($px / $rem) + rem;
 }
-#blank {
+.huadong {
+  width: 100%;
+}
+.bt {
+  width: 100%;
   height: 50px;
-  width: 100%;
-  background: rebeccapurple;
+  background-color: red;
 }
-#card {
-  background: blue;
-  height: 20rem;
-  margin: 2rem 0 4rem 0;
-  padding: 1rem;
-  padding-top: 50;
-  position: relative;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2.5rem 5rem 0 rgba(0, 0, 0, 0.1);
-}
-
-#card_tip {
-  top: 15px;
-  background: orange;
-  height: 21px;
-  width: 100px;
-  float: left;
-}
-/* CSS三等分方式一 width: calc(100% / 3) */
-.card_container {
-  display: column;
-  width: 100%;
-}
-
-.card_item_row {
-  float: left;
-  width: calc(100% / 3);
-  background-color: rebeccapurple;
-}
-/* CSS三等分-两排row */
-.card_item {
-  display: inline-flex;
-  flex-direction: columns;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.card_item_row_first {
-  color: white;
-  font-size: 19px;
-}
-.card_item_row_second {
-  color: white;
-  font-size: 12px;
-}
-
-.card_second_row {
-  color: #B9DAFF;
-  font-size: 12px;
-}
-
-/* List title */
-.list_title {
-  float: left;
-  margin-left: 18px;
-  margin-bottom: 16px;
-  font-size: 18px;
-  color:#333333;
-}
-/* List */
-.list_row {
-  float: left;
-  width: 100%;
-}
-.list_row_card {
-  background: #f5f7fc;
-  margin-left: 18px;
-  margin-right: 18px;
-}
-.list_row_container {
+//要滑动必要css
+nav {
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: left;
-  color: purple;
+  -webkit-box-align: middle;
+  -ms-flex-align: middle;
+  align-items: middle;
+  overflow: auto;
 }
-.list_row_first {
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-bottom: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.list_row_second {
-  margin-left: 15px;
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-/* row */
-.list_row_first_start {
-  color: #333333;
-  font-size: 16px;
-}
-.list_row_first_end {
-  display: inline-flex;
-  flex-direction: columns;
-  align-items: flex-end;
-  justify-content: center;
-}
-/* row first */
-.list_row_first_end_first {
-  color: #333333;
-  font-size: 19px;
-}
-/* row second */
-.list_row_first_end_second {
-  margin-right: 25px;
-  margin-left: 6px;
-  color: #666666;
-  font-size: 16px;
-}
-
-/* column */
-.list_row_second_item {
-  color: #999999;
-  font-size: 12px;
-}
-.list_row_second_item2 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
- /* 图片容器 */
-.card_image_container {
-  width: 100%;
-  position: relative;
-  margin: auto;
+span {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  width: 45px;
+  font-weight: bolder;
   text-align: center;
+  margin-left: 10px;
+  -ms-flex-negative: 0; //先把导航栏样式写好,然后加上下面这两句,导航栏可以实现滑动了
+  flex-shrink: 0;
 }
-/* 图片 */
-.card_image {
-  height: 90px;
-  width: 90px;
-}
-/* 图片内容 */
-.card_image_content {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color: red;
+.active {
+  color: white;
 }
 </style>
