@@ -1,4 +1,48 @@
-# Mac软件推荐
+# Mac的一切
+
+
+
+
+
+## macbook 外接显示器关闭内置屏幕
+
+mac使用外接显示器作为主屏幕 mac显示器熄灭的
+
+> 将mac慢慢合，合到夹角很小的时候会短暂黑一下然后外接显示器就成主屏幕了，
+>
+> 这时候我们可以将mac完全合上后竖立放置在一旁
+
+参考：
+1 [将显示器连接到 Mac \- Apple 支持](https://support.apple.com/zh-cn/HT202351)
+2 [macbook 外接显示器关闭内置屏幕 \- V2EX](https://www.v2ex.com/t/579253)
+
+
+
+## macbook 外接键盘多任务多窗口控制
+
+#### 方法一：**使用Alfed的快速启动hotKey功能，快速启动mac系统自带的Misssion Control**
+
+<img src="https://raw.githubusercontent.com/Mingriweiji-github/ImageBed/master/img/20210619162320.png" alt="image-20210619162317288" style="zoom: 67%;" />
+
+推荐直接使用快捷键F3控制Mission Control和mac原生体验保持一致
+
+![image-20210619163002458](https://raw.githubusercontent.com/Mingriweiji-github/ImageBed/master/img/20210619163006.png)
+
+
+
+#### 方法二：Mac-设置-桌面与屏幕保护程序-屏幕保护程序-选择你想要的屏幕角（以桌面右下角为例）设置为调度中心
+
+
+
+![image-20210619165937167](https://raw.githubusercontent.com/Mingriweiji-github/ImageBed/master/img/20210619165938.png)
+
+## [第三方键盘hhkb没法在 mac 上开机登录](https://www.v2ex.com/t/683490)
+
+开启 FileVault 的情况下，HHKB 双模无法在开机或重启时输入登录密码”，苹果自家的妙控键盘是可以的
+
+HHKB 在开启 Filevault 的前提下，Filco 双模没问题，GANSS 不行。
+
+## 2 、Mac软件推荐
 
 
 
