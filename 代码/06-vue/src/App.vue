@@ -104,7 +104,7 @@ body {
 }
 
 .box {
-  /* margin: 10px; */
+  margin: 20px;
   height: 400px;
   background-color: #eeeeee;
 }
