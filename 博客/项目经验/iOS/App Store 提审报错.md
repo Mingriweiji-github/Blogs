@@ -1,4 +1,12 @@
-## App Store 提审报错
+## App Store 审核指南
+
+[App Store 审核指南 \- Apple Developer](https://developer.apple.com/cn/app-store/review/guidelines/#legal)
+
+
+
+
+
+
 
 ERROR ITMS-90062: "This bundle is invalid. The value for key CFBundleShortVersionString [1.5.0] in the Info.plist file must contain a higher version than that of the previously approved version [1.5.0]. Please find more information about CFBundleShortVersionString at https://developer.apple.com/documentation/bundleresources/information_property_list/cfbundleshortversionstring"
 

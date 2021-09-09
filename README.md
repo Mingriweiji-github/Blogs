@@ -1,23 +1,155 @@
-# 技术人经验
-[普通技术人的成长路径 \- 一位客户端老兵的经验之谈](https://mp.weixin.qq.com/s?__biz=MzI2NTAxMzg2MA==&mid=2247490197&idx=1&sn=4afa9770f9913f3688f33ee5026ac9e3&scene=21#wechat_redirect)
+# 零
 
-<img src=https://raw.githubusercontent.com/Mingriweiji-github/ImageBed/master/img/20210603111618.png width=5%>
-
-[\[续\]普通技术人的成长路径 —— 十年职业总结](https://mp.weixin.qq.com/s/a3GnJc46DXiQoNePa2znjw)
+#### [职场建议:](https://mp.weixin.qq.com/s/Il5vhOflkFmQeQHdyyuz3w)
 
 
-# Flutter原理 
+
+
+- **01、领导分配任务时，一定要确认清楚**
+  - **接受任务时，一定要和上司沟通清楚，千万不要不懂装懂。没有正确理解上司意图，后面会出现很多麻烦。**
+- **02、及时反馈、持续反馈、结果反馈**
+  - 	**上司交代你的任务，一定要及时反馈。不要担心上司会烦，你刚开始反馈时，他可能会说不用，但只要你坚持下去，他一定会对你加分。**
+- **03、给领导方案，而不是问题**
+  - 	**领导存在的意义，并不是手把手教你去做，而是帮你定大方向的。所以，向领导征求意见时，要提前准备好你的备选方案，让领导做选择题，而不是问答题。**
+- **04、未成定局的事，不要搞得人尽皆知**
+  - 	**未成定局的事，默默开心就行了，不要搞得人尽皆知，不然出现意外自己会很尴尬。**
+- **05 、不要在背后说别人的坏话**
+  - 	**知乎上有个热门话题：说说工作以后你在职场学会的东西？点赞最高的回答是：不要在背后说别人坏话，因为最后一定会传到那个人耳朵里。**
+-  **06、职场上，钝感比敏感更重要**
+  - 	**不要总把自己放在受害者的位置上，在工作中，你不可能不受委屈。我们必须要清楚一件事：挨骂、受挫、委屈，也是工作的一部分。**
+-  **07、不要把情绪带到工作中**
+  - 	**不把情绪带到工作中来，是一个成年人该有的自觉。情绪外放，从来不会被看作真性情，别人只会觉得你幼稚。**
+- **08、对自己的要求，要比职位高一级**
+  - 	**一位师长曾经对我说：以后工作了，对自己的要求要比自己的职位高一级。这个道理，我后来越琢磨越觉得有价值。**
+- **09、 想当将军，先学会服从**
+  - 	**在团队中服从命令，是极其重要的专业素养，一旦方案确立，就不要抱怨，不要消极应付，而要积极认真地执行。只有先学会被领导，才能成为一个好领导。**
+- **10 、远离不必要的社交**
+  - 	**90%的职场社交都是无用的。职场新人不要忙着建什么人脉，把你的专业做得精彩才是根本。你有本事了，别人自然会主动来找你，你也就有了人脉。** 
+- **11 、靠谱是比聪明更重要的品质**
+  - 	**什么叫靠谱？靠谱就是：事事有回音，凡事有交代，件件有着落。做好领导交办给你的小事，先证明你是一个靠谱的人，你才能接到更大的重任。**
+- **12、永远不要只满足于60分**
+  - 	**想成为前5%的职场人，对自己的标准就不能是60分。公司的规章制度，永远是为最差的员工准备的，而不是为5%的优秀员工准备的。**
+- **13、培养自己的杀手锏技能**
+  - 	薪酬不是和你的工作量成正比，而是和你的不可替代性成正比
+  - 	**你在职场上的地位，不是由你的工作量决定的，而是由你的不可替代性决定的，所以你得培养自己的杀手锏技能。**
+- **14、别做职场老好人**
+  - 	**别做职场老好人，要建立自己的底线和原则。不然，你会牺牲大量的时间和精力。如果结果好，你是给别人做嫁衣；如果结果不好，你还得替人背锅。**
+- **15 、朋友圈是一种隐形简历**
+  - 	**微信朋友圈，从来不是单纯的朋友圈，它是你的隐形简历。最好的朋友圈状态是“在什么山上唱什么歌”：工作的时候，斗志满满；休息的时候，珍惜时光。天天晒吃喝玩乐，会显得玩物丧志；天天晒熬夜加班，则会令人生厌。要显示自己安排生活、管理时间的能力，而不是经常地抱怨。**
+- **16、不要把同事当密友什么都说**
+  - 	**工作不是生活，同事不是朋友，对待同事可以热情，可以互助，但千万别把同事当密友，什么老底都让他知道。没有利益关系都是朋友，一旦有利益冲突，翻脸只是一瞬间的事儿。**
+
+
+
+
+# 一 iOS
+
+##  OC基础
+
+[OC分类底层实现与使⽤场景详解](https://mp.weixin.qq.com/s/D6TkWhC2oCd2v1c8aTGAvQ)
+
+## OC进阶篇 
+
+### 原理篇0 x1
+
+[从预编译的角度理解Swift与Objective-C及混编机制](https://mp.weixin.qq.com/s/gI9vL1KlHuMzMoWWf2tnIw)
+
+[从汇编层面探索 KVO 本质](https://mp.weixin.qq.com/s/0Yfb-FYorH5GZ3ZB6bMCUQ)
+
+[一招搞定 iOS 14.2 的 libffi crash](https://mp.weixin.qq.com/s/XLqcCfcNhpCA8Tg6LknBCQ)
+
+
+
+### 原理篇0 x2
+
+第一节：《Objective-C 高级编程》学习笔记    
+[Objective-C之GCD多线程(一)](https://larrycal.coding.me/2017/02/09/Objective-C之多线程/)   
+[Objective-C之GCD多线程（二)](https://larrycal.coding.me/2017/02/13/Objective-C之GCD多线程（二）/)   
+[Objective-C之Blocks（三）](https://larrycal.coding.me/2017/02/03/Objective-C之Blocks（三）/)   
+[Objective-C之Blocks（二）](https://larrycal.coding.me/2017/01/28/Objective-C之Blocks（二）/)   
+[Objective-C之Blocks（三）](https://larrycal.coding.me/2017/02/03/Objective-C之Blocks（三）/)   
+[Objective-C之Blocks-四](https://larrycal.coding.me/2017/03/27/Objective-C之Blocks-四/)   
+
+第二节：底层实现原理
+[iOS底层解析Weak实现原理](http://www.jianshu.com/p/13c4fb1cedea)        
+[weak singleton](https://zhuanlan.zhihu.com/p/27832890)   
+
+[关于iOS离屏渲染的深入研究](https://zhuanlan.zhihu.com/p/72653360)
+
+[深入浅出GCD](https://xiaozhuanlan.com/u/3785694919)
+[深入浅出GCD之dispatch_group](https://xiaozhuanlan.com/topic/0863519247)
+
+[RunLoop要点](http://aaaboom.com/?p=37)   
+[RunLoop系列之源码分析](http://aaaboom.com/?p=34#wow1)   
+[Runloop面试与总结](https://juejin.im/post/5c9e28ddf265da307261efff)
+[Runloop实战](https://juejin.im/post/5cacb2baf265da03904bf93b)
+
+第三节：HTTPS原理   
+[看完还不懂HTTPS我直播吃翔](http://www.jianshu.com/p/ca7df01a9041) 
+
+[图解HTTPS](https://mp.weixin.qq.com/s/3gI8avaaaEaBJjOKitN7Fw)
+
+[SDWebImage 图片下载缓存框架 常用方法及原理](http://www.jianshu.com/p/4191017c8b39)  
+
+[iOS数据库升级](http://www.jianshu.com/p/e1bd870b4ac2)   
+
+第四节：Swift3.0
+[Swift3特性](http://www.jianshu.com/p/5d911fae5b2f)
+
+### 面试篇   
+
+[iOS中级面试题](http://mrpeak.cn/ios/2016/01/07/push)  
+[iOS面试题练习(二)](https://larrycal.coding.me/2017/02/27/iOS面试题-二/)  
+[招聘一个靠谱的iOS](http://blog.sunnyxx.com/2015/07/04/ios-interview/)     
+[招聘一个靠谱的iOS参考答案（上）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（上）.md)    
+[招聘一个靠谱的iOS参考答案（下）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（下）.md)                    
+
+### 突破性思维
+
+[刻意练习](https://book.douban.com/subject/26895993/)       
+
+[拆掉思维里的墙](https://www.amazon.cn/拆掉思维里的墙-原来我还可以这样活-古典/dp/B009P4OW6U/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1503646401&sr=1-2&keywords=拆掉思维里的墙)    
+
+[你的生命有什么可能](https://www.amazon.cn/你的生命有什么可能-古典/dp/B00SIOKLMM/ref=pd_sim_351_3?ie=UTF8&psc=1&refRID=2X0YEEB59NM2X633X420)
+
+
+
+# 三 、Swift
+
+## 官方
+
+[Apple官方book](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+
+## Swift翻译组
+
+[SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
+[Swift5.4发布](https://mp.weixin.qq.com/s/CKx-UhzBkhDMDvDbzjX09g)
+
+[《iOS 渲染原理解析》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
+[《模糊的 Any 和 Optional》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322223&idx=1&sn=1284b3e2f9d6babd925302cd82a24ff9&chksm=870e0a36b0798320e01eea0aba143f680a7b39a449232327354bc0d1af9c21db1759ce8ed2df&scene=21#wechat_redirect)
+[《Swift 5 之后 "Method Swizzling"？》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458321680&idx=1&sn=26af231a91a9f43f7779cde2a6b64c4a&chksm=870e0c09b079851f65e4e192972e0ea9371a7a1ce9b5e8fc820e223d02a60dd58532559fcf38&scene=21#wechat_redirect)
+
+## Swift 开源和工具
+
+[ChartView made in SwiftUI](
+
+
+
+# 三  Flutter 跨移动端
+
+## Flutter原理 
+
 解读 Flutter 中热重载原理：https://mp.weixin.qq.com/s/Rd03kZLr26AJGcW2RXZc3w
 [Dart VM 的相关简介与运行模式解析](https://mp.weixin.qq.com/s/qVAJ6RHfCKBzYhxNUMPXqw)
 
 
-# Flutter开源
+## Flutter开源
 
  [gittee:flutter_readhub](https://gitee.com/AriesHoo/flutter_readhub)
 
 [github: flutter_readhub](https://github.com/AriesHoo/flutter_readhub)
 
-# Flutter实践
+## Flutter实践
 
 
 [美团外卖Flutter动态化实践](https://mp.weixin.qq.com/s/wjEvtvexYytzSy5RwqGQyw)
@@ -38,23 +170,18 @@
 
 
 
-
-# Swift官方
-[Apple官方book](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-# Swift翻译组
-[SwiftGG翻译组](https://swiftgg.gitbook.io/swift/)
-[Swift5.4发布](https://mp.weixin.qq.com/s/CKx-UhzBkhDMDvDbzjX09g)
-
-[《iOS 渲染原理解析》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
-[《模糊的 Any 和 Optional》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322223&idx=1&sn=1284b3e2f9d6babd925302cd82a24ff9&chksm=870e0a36b0798320e01eea0aba143f680a7b39a449232327354bc0d1af9c21db1759ce8ed2df&scene=21#wechat_redirect)
-[《Swift 5 之后 "Method Swizzling"？》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458321680&idx=1&sn=26af231a91a9f43f7779cde2a6b64c4a&chksm=870e0c09b079851f65e4e192972e0ea9371a7a1ce9b5e8fc820e223d02a60dd58532559fcf38&scene=21#wechat_redirect)
-# Swift 开源和工具
-
-[ChartView made in SwiftUI](https://github.com/AppPear/ChartView)
+https://github.com/AppPear/ChartView)
 
 
-# [计算机硬件和网络](https://github.com/crisxuan/bestJavaer)
-## 操作系统系列
+
+# 四 、 H5 跨移动端
+
+
+
+# 五、 计算机硬件和网络
+[ 计算机硬件和网络](https://github.com/crisxuan/bestJavaer)
+
+### 操作系统系列
 
 - [硬核操作系统入门](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-overview.md)
 - [硬核操作系统之进程和线程](https://github.com/crisxuan/bestJavaer/blob/master/operating-system/os-processandthread.md)
@@ -96,26 +223,16 @@
 - [计算机网络数据链路层](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/network-datalink.md)
 - [Web 页面的请求流程，超详细](https://github.com/crisxuan/bestJavaer/blob/master/computer-network/web-request.md)
 
-## 汇编语言
+# 六、汇编语言
 
 - [从指令集的角度看汇编](https://github.com/crisxuan/bestJavaer/blob/master/assembly/assembly01.md)
 - [寄存器入门第一篇](https://github.com/crisxuan/bestJavaer/blob/master/assembly/assembly02.md)
 
 
 
-# 面试
-
-- [iOS 内存管理机制](https://juejin.cn/post/6956144382906990623)  **内存方面总结的很全面，内容很多，准备面试的同学可以抽时间看看。**
 
 
-
-
-
-# 算法篇
-[C++算法讲解](https://github.com/youngyangyang04/leetcode-master)
-
-
-# 硬件&端智能
+# 七 硬件&端智能
 [如何看待苹果**M1**芯片跑分超过**i9**？](https://www.zhihu.com/question/429951450)
 
 [2020年Mac Mini的M1芯片测评](https://www.anandtech.com/show/16252/mac-mini-apple-m1-tested)
@@ -126,14 +243,14 @@
 
 [轻松玩转移动AI，一键集成的端智能框架Pitaya](https://mp.weixin.qq.com/s/XF2k9MGcbY_hqlLEjl0hhw)
 
-# 效率&工具
+# 八、经验 & 效率&工具
 [一款可让大型iOS工程编译速度提升50%的工具](https://mp.weixin.qq.com/s/uBpkelG8q_xmskWPYyWONA)
 
 
 
 
 
-# App优化
+## App优化
 
 [《抖音研发实践：基于二进制文件重排的解决方案 APP启动速度提升超15%》](http://mp.weixin.qq.com/s?__biz=MzA5MTM1NTc2Ng==&mid=2458322656&idx=1&sn=ea1585d20cc71f9a42a7aadc860fd9ad&chksm=870e09f9b07980ef303f878870762208dc8ebf0975d370a1bc2d5d5b83ded82507e5b0dc6526&scene=21#wechat_redirect)
 
@@ -176,7 +293,7 @@
 
 
 
-# App架构
+## App架构
 ### 抖音 iOS 工程架构演进
 [抖音 iOS 工程架构演进](https://mp.weixin.qq.com/s/HHH5_IEbsR8iSmXSIdeutw)
 #### 1.抖音项目一开始是单体架构+Cocoapods，业务代码、工程配置、资源文件全部放在一个大业务仓库。由 Podfile 文件描述第三方仓库的依赖版本。
@@ -188,15 +305,10 @@
 #### 阶段四：Example 子壳工程架构（Subshell for bizcomponent in example project）
 ![](https://mmbiz.qpic.cn/mmbiz_png/5EcwYhllQOgxv4BKibbw6cq7h91kLkCLaBc5HX9hONLz7yZvzzSgdGkypVFiaZas0KZ7KiahazjEdZBz4ze72zsaw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
-# 底层原理
 
-[从预编译的角度理解Swift与Objective-C及混编机制](https://mp.weixin.qq.com/s/gI9vL1KlHuMzMoWWf2tnIw)
 
-[从汇编层面探索 KVO 本质](https://mp.weixin.qq.com/s/0Yfb-FYorH5GZ3ZB6bMCUQ)
 
-[一招搞定 iOS 14.2 的 libffi crash](https://mp.weixin.qq.com/s/XLqcCfcNhpCA8Tg6LknBCQ)
-
-# 技术拓展
+## 技术拓展
 [抖音BoostMultiDex优化实践：Android低版本上APP首次启动时间减少80%（一）](https://mp.weixin.qq.com/s/jINCbTJ5qMaD6NdeGBHEwQ)
 [抖音BoostMultiDex优化实践：Android低版本上APP首次启动时间减少80%（二）](https://mp.weixin.qq.com/s/ILDTykAwR0xIkW-d1YzRHw)
 [抖音Android团队-抖音包大小优化-资源优化](https://mp.weixin.qq.com/s/xxrvRKXXDquJaezjrOlLwA)
@@ -205,7 +317,7 @@
 
 [美团万亿级 KV 存储架构与实践](https://mp.weixin.qq.com/s/1woExb3V_PjnrhHYH5Jksg)
 
-# 思维拓展
+## 思维拓展
 [工程师的基本功是什么？该如何练习？听听美团技术大咖怎么说](https://mp.weixin.qq.com/s/vOZb2PUdqMUj17ReMA43GA)
 
 
@@ -214,54 +326,21 @@
 
 
 
-# iOS+思维 进阶篇 
+# 面试
 
-### 原理篇
+- [iOS 内存管理机制](https://juejin.cn/post/6956144382906990623)  **内存方面总结的很全面，内容很多，准备面试的同学可以抽时间看看。**
 
-第一节：《Objective-C 高级编程》学习笔记    
-[Objective-C之GCD多线程(一)](https://larrycal.coding.me/2017/02/09/Objective-C之多线程/)   
-[Objective-C之GCD多线程（二)](https://larrycal.coding.me/2017/02/13/Objective-C之GCD多线程（二）/)   
-[Objective-C之Blocks（三）](https://larrycal.coding.me/2017/02/03/Objective-C之Blocks（三）/)   
-[Objective-C之Blocks（二）](https://larrycal.coding.me/2017/01/28/Objective-C之Blocks（二）/)   
-[Objective-C之Blocks（三）](https://larrycal.coding.me/2017/02/03/Objective-C之Blocks（三）/)   
-[Objective-C之Blocks-四](https://larrycal.coding.me/2017/03/27/Objective-C之Blocks-四/)   
 
-第二节：底层实现原理
-[iOS底层解析Weak实现原理](http://www.jianshu.com/p/13c4fb1cedea)        
-[weak singleton](https://zhuanlan.zhihu.com/p/27832890)   
 
-[关于iOS离屏渲染的深入研究](https://zhuanlan.zhihu.com/p/72653360)
 
-[深入浅出GCD](https://xiaozhuanlan.com/u/3785694919)
-[深入浅出GCD之dispatch_group](https://xiaozhuanlan.com/topic/0863519247)
 
-[RunLoop要点](http://aaaboom.com/?p=37)   
-[RunLoop系列之源码分析](http://aaaboom.com/?p=34#wow1)   
-[Runloop面试与总结](https://juejin.im/post/5c9e28ddf265da307261efff)
-[Runloop实战](https://juejin.im/post/5cacb2baf265da03904bf93b)
+# 算法篇
+[C++算法讲解](https://github.com/youngyangyang04/leetcode-master)
 
-第三节：HTTPS原理   
-[看完还不懂HTTPS我直播吃翔](http://www.jianshu.com/p/ca7df01a9041) 
+## 技术人经验
 
-[图解HTTPS](https://mp.weixin.qq.com/s/3gI8avaaaEaBJjOKitN7Fw)
+[普通技术人的成长路径 \- 一位客户端老兵的经验之谈](https://mp.weixin.qq.com/s?__biz=MzI2NTAxMzg2MA==&mid=2247490197&idx=1&sn=4afa9770f9913f3688f33ee5026ac9e3&scene=21#wechat_redirect)
 
-[SDWebImage 图片下载缓存框架 常用方法及原理](http://www.jianshu.com/p/4191017c8b39)  
+<img src=https://raw.githubusercontent.com/Mingriweiji-github/ImageBed/master/img/20210603111618.png width=5%>
 
-[iOS数据库升级](http://www.jianshu.com/p/e1bd870b4ac2)   
-
-第四节：Swift3.0
-[Swift3特性](http://www.jianshu.com/p/5d911fae5b2f)
-
-### 面试篇   
-[iOS中级面试题](http://mrpeak.cn/ios/2016/01/07/push)  
-[iOS面试题练习(二)](https://larrycal.coding.me/2017/02/27/iOS面试题-二/)  
-[招聘一个靠谱的iOS](http://blog.sunnyxx.com/2015/07/04/ios-interview/)     
-[招聘一个靠谱的iOS参考答案（上）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（上）.md)    
-[招聘一个靠谱的iOS参考答案（下）](https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（下）.md)                    
-
-### 突破性思维
-[刻意练习](https://book.douban.com/subject/26895993/)       
-
-[拆掉思维里的墙](https://www.amazon.cn/拆掉思维里的墙-原来我还可以这样活-古典/dp/B009P4OW6U/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1503646401&sr=1-2&keywords=拆掉思维里的墙)    
-
-[你的生命有什么可能](https://www.amazon.cn/你的生命有什么可能-古典/dp/B00SIOKLMM/ref=pd_sim_351_3?ie=UTF8&psc=1&refRID=2X0YEEB59NM2X633X420)
+[\[续\]普通技术人的成长路径 —— 十年职业总结](https://mp.weixin.qq.com/s/a3GnJc46DXiQoNePa2znjw)
